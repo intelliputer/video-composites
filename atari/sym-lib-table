@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ports") (type "Legacy") (uri "${KIPRJMOD}/ports.lib") (options "") (descr ""))
+	(lib (name "Composite Video Amplifier-cache") (type "Legacy") (uri "/home/cartheur/ame/aiventure/aiventure-github/intelliputer/video-composites/atari/Composite Video Amplifier-cache.lib") (options "") (descr "Legacy project cache library"))
+)
