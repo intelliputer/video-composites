@@ -18,12 +18,13 @@ important than the lowest component count.
 
 | What | Location |
 | --- | --- |
-| KiCad schematic | [`atari-composite.kicad_sch`](atari-composite.kicad_sch) |
-| KiCad PCB layout | [`atari-composite.kicad_pcb`](atari-composite.kicad_pcb) |
-| KiCad project | [`atari-composite.kicad_pro`](atari-composite.kicad_pro) |
+| KiCad schematic | [`project/kicad/atari-composite.kicad_sch`](project/kicad/atari-composite.kicad_sch) |
+| KiCad PCB layout | [`project/kicad/atari-composite.kicad_pcb`](project/kicad/atari-composite.kicad_pcb) |
+| KiCad project | [`project/kicad/atari-composite.kicad_pro`](project/kicad/atari-composite.kicad_pro) |
 | Installation/result photographs | [`gallery/`](gallery/) |
-
-![Reference installation: PAL Atari 7800](gallery/2019-01-28%2023.04.03.jpg)
+| Rendered PCB snapshot | [`doc/pcb-snapshot.png`](doc/pcb-snapshot.png) |
+| Bill of materials | [`doc/BOM.md`](doc/BOM.md) |
+| Circuit analysis | [`doc/CIRCUIT-ANALYSIS.md`](doc/CIRCUIT-ANALYSIS.md) |
 
 ## Circuit summary
 

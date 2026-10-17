@@ -12,9 +12,12 @@ The Intellivision design conditions the tapped video signal with a two-stage dis
 
 | What | Location |
 | --- | --- |
-| KiCad board source | [`intellivision/project/intellivision-composite.kicad_pcb`](intellivision/project/intellivision-composite.kicad_pcb) |
-| KiCad project files | [`intellivision/project/`](intellivision/project/) |
+| KiCad board source | [`intellivision/project/kicad/intellivision-composite.kicad_pcb`](intellivision/project/kicad/intellivision-composite.kicad_pcb) |
+| KiCad project files | [`intellivision/project/kicad/`](intellivision/project/kicad/) |
 | Board and installation reference images | [`intellivision/doc/`](intellivision/doc/) |
+| Rendered PCB snapshot | [`intellivision/doc/pcb-snapshot.png`](intellivision/doc/pcb-snapshot.png) |
+| Bill of materials | [`intellivision/doc/BOM.md`](intellivision/doc/BOM.md) |
+| Circuit analysis | [`intellivision/doc/CIRCUIT-ANALYSIS.md`](intellivision/doc/CIRCUIT-ANALYSIS.md) |
 | Model compatibility and installation notes | [`intellivision/doc/COMPATIBILITY.md`](intellivision/doc/COMPATIBILITY.md) |
 | Manufacturing files | [`intellivision/gerbers/video-composite-intellivision.zip`](intellivision/gerbers/video-composite-intellivision.zip) |
 
@@ -39,17 +42,29 @@ and verify the actual console before soldering.
 ## Using the design
 
 1. Review the schematic, installation reference image, and [model compatibility notes](intellivision/doc/COMPATIBILITY.md) before modifying a console.
-2. Open the KiCad project in `intellivision/project/` to inspect or adapt the board.
+2. Open the KiCad project in `intellivision/project/kicad/` to inspect or adapt the board.
 3. Use the Gerber ZIP to order the current PCB revision, or regenerate fabrication files from the board source after making changes.
 4. Verify signal locations, supply voltage, polarity, and operation on your particular console before permanent installation.
+
+## Universal design note
+
+[`universal/README.md`](universal/README.md) compares the Atari and
+Intellivision amplifier behaviours and recommends a common adjustable,
+AC-coupled two-stage direction for baseband composite-video installations.
 
 ## Repository layout
 
 ```text
+atari/
+├── gallery/         Reference installation and result photographs
+└── project/kicad/   KiCad board, schematic, project, and custom libraries
 intellivision/
-├── doc/       Reference photos, schematic rendering, and compatibility notes
-├── gerbers/   Gerbers, drill files, and manufacturing ZIP
-└── project/   KiCad board, schematic, and project settings
+├── doc/             Reference photos, schematic rendering, and compatibility notes
+├── gerbers/         Gerbers, drill files, and manufacturing ZIP
+└── project/
+    ├── eda/         EDA export artifacts
+    └── kicad/       KiCad board, schematic, and project settings
+reports/              KiCad ERC/DRC validation state and commands
 ```
 
 ## License
