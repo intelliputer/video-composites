@@ -1,4 +1,4 @@
-# Atari 2600 composite-video amplifier
+## Atari 2600 composite-video amplifier
 
 This is the selected quality-focused composite-video modification for an Atari
 2600. It taps the console's pre-RF video and audio signals, buffers the video,
