@@ -1,72 +1,83 @@
-# Video Composites
+## Video Composites
 
-Hardware designs for adding RCA composite-video and audio outputs to vintage systems. This repository currently contains an **Intellivision** video-output modification.
+Hardware designs and reference material for adding baseband composite-video
+and mono-audio outputs to vintage consoles. The repository preserves separate
+Atari 2600 and Intellivision amplifier designs while developing a better
+documented universal direction for consoles that expose composite video ahead
+of their RF modulator.
 
-> The board expects video and audio signals from a console modification point; it is not an RF-to-composite demodulator.
+> These are baseband-video modifications, not RF-to-composite converters. A
+> console must provide a suitable pre-RF video signal, regulated +5 V, ground,
+> and, where used, raw mono audio.
 
-## Intellivision video composite board
+### Current state
 
-The Intellivision design conditions the tapped video signal with a two-stage discrete transistor circuit and brings it out as composite video. Audio is routed through a coupling capacitor to a separate output. The board has connections for power, ground, video in/out, and audio in/out.
+| Design | Purpose | State |
+| --- | --- | --- |
+| [Atari 2600](atari/README.md) | Adjustable two-stage composite-video amplifier and mono-audio pass-through. | Source design preserved; resolve or explicitly waive the recorded PCB DRC items before manufacturing. |
+| [Intellivision](intellivision/doc/COMPATIBILITY.md) | Fixed-gain two-stage composite-video amplifier and mono-audio coupling for NTSC Intellivision-family consoles. | Legacy working production reference preserved; source-schematic restoration and manufacturing review remain necessary. |
+| [Universal](universal/README.md) | Proposed adjustable, AC-coupled two-stage design for appropriate baseband sources. | Design direction and prototype documentation; validate on target hardware before release or production. |
 
-![Intellivision schematic](intellivision/doc/schematic.jpg)
+Validation details and reproducible KiCad checks are in [reports/README.md](reports/README.md).
 
-| What | Location |
-| --- | --- |
-| KiCad board source | [`intellivision/project/kicad/intellivision-composite.kicad_pcb`](intellivision/project/kicad/intellivision-composite.kicad_pcb) |
-| KiCad project files | [`intellivision/project/kicad/`](intellivision/project/kicad/) |
-| Board and installation reference images | [`intellivision/doc/`](intellivision/doc/) |
-| Rendered PCB snapshot | [`intellivision/doc/pcb-snapshot.png`](intellivision/doc/pcb-snapshot.png) |
-| Bill of materials | [`intellivision/doc/BOM.md`](intellivision/doc/BOM.md) |
-| Circuit analysis | [`intellivision/doc/CIRCUIT-ANALYSIS.md`](intellivision/doc/CIRCUIT-ANALYSIS.md) |
-| Model compatibility and installation notes | [`intellivision/doc/COMPATIBILITY.md`](intellivision/doc/COMPATIBILITY.md) |
-| Manufacturing files | [`intellivision/gerbers/video-composite-intellivision.zip`](intellivision/gerbers/video-composite-intellivision.zip) |
+### Atari 2600 composite amplifier
 
-The image below shows the assembled PCB layout.
+The Atari board uses a 2N3904 input stage, a 2N3906 output stage, and an
+adjustable gain trimmer. It takes regulated +5 V, ground, raw pre-RF video,
+and raw audio from the specific console revision, then provides buffered video
+and mono audio for external RCA connectors.
 
-![Intellivision PCB](intellivision/doc/pcb.jpg)
+Start with the [Atari design and installation notes](atari/README.md) and its
+[BOM](atari/doc/BOM.md). Board revisions, video taps, and physical mounting
+vary; confirm the signals on the actual console rather than copying solder
+points from another revision.
 
-### Console compatibility
+### Intellivision composite amplifier
 
-The same board circuit is suitable for NTSC Intellivision I, Intellivision II,
-and Sears Telegames / Super Video Arcade model 497.75022. Each console
-provides raw composite video and mono audio ahead of its RF modulator; the
-board buffers the high-impedance video signal for a normal 75-ohm composite
-input and passes audio to a separate output.
+The Intellivision board uses two 2N3904 stages with AC coupling and fixed
+component values. It is intended for NTSC Intellivision I, Intellivision II,
+and Sears Telegames / Super Video Arcade 497.75022 consoles, subject to the
+[compatibility and installation notes](intellivision/doc/COMPATIBILITY.md).
 
-The electrical method and board component values are the same. The physical
-installation is not: power, ground, and convenient audio/video solder points,
-RF shielding, cable routing, and RCA-jack mounting vary by chassis and
-motherboard revision. Read the [compatibility and installation notes](intellivision/doc/COMPATIBILITY.md)
-and verify the actual console before soldering.
+The repository includes board imagery, a reconstructed circuit analysis, and
+the [BOM](intellivision/doc/BOM.md). The populated KiCad PCB does not yet have
+a usable matching schematic, so treat it as a preservation/reference artifact
+until that source is restored and the design has a complete review.
 
-## Using the design
+#### Production Gerber reference
 
-1. Review the schematic, installation reference image, and [model compatibility notes](intellivision/doc/COMPATIBILITY.md) before modifying a console.
-2. Open the KiCad project in `intellivision/project/kicad/` to inspect or adapt the board.
-3. Use the Gerber ZIP to order the current PCB revision, or regenerate fabrication files from the board source after making changes.
-4. Verify signal locations, supply voltage, polarity, and operation on your particular console before permanent installation.
+[`intellivision/gerbers/ec.zip`](intellivision/gerbers/ec.zip) is the
+preserved successful EC/manufacturer-compatible Gerber package, renamed from
+`old.zip`. It is the known-good reference for the post-export, pre-submission
+packaging check: compare a newly exported intended submission against its
+required layers, drill data, files, and naming before ordering. Its provenance
+does not make it an Atari board or prove that an altered board is ready to
+manufacture. See the [Gerber-package note](intellivision/gerbers/README.md).
 
-## Universal design note
+### Universal direction
 
-[`universal/README.md`](universal/README.md) compares the Atari and
-Intellivision amplifier behaviours and recommends a common adjustable,
-AC-coupled two-stage direction for baseband composite-video installations.
+The [universal design note](universal/README.md) compares the two existing
+amplifiers and proposes an adjustable-gain, AC-coupled design with explicit
+supply decoupling. It is intended as a future common platform, not evidence
+that either existing board is electrically interchangeable with the other.
 
-## Repository layout
+### Before modifying a console or ordering boards
+
+1. Verify that the target console exposes baseband composite video before its RF modulator.
+2. Confirm raw video, audio, +5 V, and ground on the individual motherboard.
+3. Use short shielded video wiring and test with a properly terminated 75-ohm composite input.
+4. Check polarity, signal level, sync, colour, black level, and bright-scene clipping before permanent installation.
+5. Review the relevant validation report and, for Gerber submissions, complete the applicable manufacturer packaging check.
+
+### Repository layout
 
 ```text
-atari/
-├── gallery/         Reference installation and result photographs
-└── project/kicad/   KiCad board, schematic, project, and custom libraries
-intellivision/
-├── doc/             Reference photos, schematic rendering, and compatibility notes
-├── gerbers/         Gerbers, drill files, and manufacturing ZIP
-└── project/
-    ├── eda/         EDA export artifacts
-    └── kicad/       KiCad board, schematic, and project settings
-reports/              KiCad ERC/DRC validation state and commands
+atari/          Atari 2600 source, BOM, analysis, and installation references
+intellivision/  Intellivision source, documents, and production Gerber references
+universal/      Common-design proposal, prototype material, and KiCad work
+reports/        Recorded ERC/DRC status and commands for reproducing checks
 ```
 
-## License
+### License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
