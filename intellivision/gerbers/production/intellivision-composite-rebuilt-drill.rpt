@@ -1,0 +1,24 @@
+Drill report for intellivision-composite-rebuilt.kicad_pcb
+Created on 2026-10-20T19:12:41
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'intellivision-composite-rebuilt.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.750mm  0.0295"  (6 holes))
+    T2  0.800mm  0.0315"  (24 holes))
+    T3  1.000mm  0.0394"  (7 holes))
+
+    Total plated holes count 37
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
