@@ -1,0 +1,300 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:Connector_Generic
+LIBS:Transistor_BJT
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Universal Composite Video Amplifier"
+Date "2026-10-17"
+Rev "0.1 prototype"
+Comp "Video Composites"
+Comment1 "Use Diotec 2N2222A TO-92: pin 1=E, 2=B, 3=C"
+Comment2 "UNVALIDATED PROTOTYPE — bench test before PCB manufacture"
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 1
+P 1500 3000
+F 0 "J1" H 1418 2775 50 0000 C CNN
+F 1 "VIDEO IN" H 1418 2866 50 0000 C CNN
+	1    1500 3000
+	-1 0 0 1
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 2
+P 2300 3000
+F 0 "C1" V 2048 3000 50 0000 C CNN
+F 1 "1u film" V 2139 3000 50 0000 C CNN
+	1    2300 3000
+	0 1 1 0
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 3
+P 2900 3400
+F 0 "RV1" H 2830 3446 50 0000 R CNN
+F 1 "10k gain" H 2830 3355 50 0000 R CNN
+	1    2900 3400
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 4
+P 3500 3000
+F 0 "R7" V 3293 3000 50 0000 C CNN
+F 1 "1k" V 3384 3000 50 0000 C CNN
+	1    3500 3000
+	0 1 1 0
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5
+P 3900 2300
+F 0 "R1" H 3970 2346 50 0000 L CNN
+F 1 "10k" H 3970 2255 50 0000 L CNN
+	1    3900 2300
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6
+P 3900 3700
+F 0 "R2" H 3970 3746 50 0000 L CNN
+F 1 "3k3" H 3970 3655 50 0000 L CNN
+	1    3900 3700
+	1 0 0 -1
+$EndComp
+$Comp
+L Transistor_BJT:Q_NPN_EBC Q1
+U 1 1 7
+P 4700 3000
+F 0 "Q1" H 4891 3046 50 0000 L CNN
+F 1 "2N2222A EBC" H 4891 2955 50 0000 L CNN
+	1    4700 3000
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 8
+P 4800 2300
+F 0 "R3" H 4870 2346 50 0000 L CNN
+F 1 "680R" H 4870 2255 50 0000 L CNN
+	1    4800 2300
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 9
+P 4800 3700
+F 0 "R4" H 4870 3746 50 0000 L CNN
+F 1 "150R" H 4870 3655 50 0000 L CNN
+	1    4800 3700
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:C_Polarized C2
+U 1 1 10
+P 5500 3000
+F 0 "C2" V 5245 3000 50 0000 C CNN
+F 1 "4u7" V 5336 3000 50 0000 C CNN
+	1    5500 3000
+	0 1 1 0
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 11
+P 6100 2300
+F 0 "R5" H 6170 2346 50 0000 L CNN
+F 1 "3k3" H 6170 2255 50 0000 L CNN
+	1    6100 2300
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 12
+P 6100 3700
+F 0 "R6" H 6170 3746 50 0000 L CNN
+F 1 "1k2" H 6170 3655 50 0000 L CNN
+	1    6100 3700
+	1 0 0 -1
+$EndComp
+$Comp
+L Transistor_BJT:Q_NPN_EBC Q2
+U 1 1 13
+P 6900 3000
+F 0 "Q2" H 7091 3046 50 0000 L CNN
+F 1 "2N2222A EBC" H 7091 2955 50 0000 L CNN
+	1    6900 3000
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 14
+P 7000 2300
+F 0 "R8" H 7070 2346 50 0000 L CNN
+F 1 "75R" H 7070 2255 50 0000 L CNN
+	1    7000 2300
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 15
+P 7000 3700
+F 0 "R9" H 7070 3746 50 0000 L CNN
+F 1 "33R" H 7070 3655 50 0000 L CNN
+	1    7000 3700
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:C_Polarized C3
+U 1 1 16
+P 7700 3000
+F 0 "C3" V 7445 3000 50 0000 C CNN
+F 1 "220u" V 7536 3000 50 0000 C CNN
+	1    7700 3000
+	0 1 1 0
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 17
+P 8500 3000
+F 0 "J2" H 8580 3042 50 0000 L CNN
+F 1 "VIDEO OUT" H 8580 2951 50 0000 L CNN
+	1    8500 3000
+	1 0 0 -1
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 18
+P 2500 5200
+F 0 "J3" H 2418 4975 50 0000 C CNN
+F 1 "AUDIO IN" H 2418 5066 50 0000 C CNN
+	1    2500 5200
+	-1 0 0 1
+$EndComp
+$Comp
+L Device:C_Polarized C4
+U 1 1 19
+P 4100 5200
+F 0 "C4" V 3845 5200 50 0000 C CNN
+F 1 "10u" V 3936 5200 50 0000 C CNN
+	1    4100 5200
+	0 1 1 0
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 20
+P 5500 5200
+F 0 "J4" H 5580 5242 50 0000 L CNN
+F 1 "AUDIO OUT" H 5580 5151 50 0000 L CNN
+	1    5500 5200
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 21
+P 7800 4300
+F 0 "C5" H 7915 4346 50 0000 L CNN
+F 1 "100n" H 7915 4255 50 0000 L CNN
+	1    7800 4300
+	1 0 0 -1
+$EndComp
+$Comp
+L Device:C_Polarized C6
+U 1 1 22
+P 8500 4300
+F 0 "C6" H 8618 4346 50 0000 L CNN
+F 1 "10u" H 8618 4255 50 0000 L CNN
+	1    8500 4300
+	1 0 0 -1
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 23
+P 4800 1900
+F 0 "#PWR01" H 4800 1750 50 0001 C CNN
+F 1 "+5V" H 4815 2073 50 0000 C CNN
+	1    4800 1900
+	1 0 0 -1
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 24
+P 4800 4000
+F 0 "#PWR02" H 4800 3750 50 0001 C CNN
+F 1 "GND" H 4805 3827 50 0000 C CNN
+	1    4800 4000
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	1700 3000 2150 3000
+Wire Wire Line
+	2450 3000 2900 3000
+Wire Wire Line
+	2900 3000 3350 3000
+Wire Wire Line
+	3650 3000 4500 3000
+Wire Wire Line
+	4800 2450 4800 2800
+Wire Wire Line
+	4800 3200 4800 3550
+Wire Wire Line
+	4800 3000 5350 3000
+Wire Wire Line
+	5650 3000 6700 3000
+Wire Wire Line
+	7000 2450 7000 2800
+Wire Wire Line
+	7000 3200 7000 3550
+Wire Wire Line
+	7000 3000 7550 3000
+Wire Wire Line
+	7850 3000 8300 3000
+Wire Wire Line
+	2700 5200 3950 5200
+Wire Wire Line
+	4250 5200 5300 5200
+Wire Wire Line
+	4800 1900 7000 1900
+Wire Wire Line
+	3900 1900 3900 2150
+Wire Wire Line
+	4800 1900 4800 2150
+Wire Wire Line
+	6100 1900 6100 2150
+Wire Wire Line
+	7000 1900 7000 2150
+Wire Wire Line
+	3900 2450 3900 3550
+Wire Wire Line
+	6100 2450 6100 3550
+Wire Wire Line
+	4800 3850 4800 4000
+Wire Wire Line
+	3900 3850 7000 3850
+Wire Wire Line
+	7000 3850 7000 3850
+Wire Wire Line
+	7800 4150 8500 4150
+Wire Wire Line
+	7800 4450 8500 4450
+Wire Wire Line
+	2900 3250 2900 3000
+Wire Wire Line
+	2900 3550 2900 3850
+Wire Wire Line
+	3900 3000 3900 2450
+Wire Wire Line
+	6100 3000 6100 2450
+Connection ~ 4800 1900
+Connection ~ 4800 3000
+Connection ~ 7000 1900
+Connection ~ 7000 3000
+Connection ~ 3900 3000
+Connection ~ 6100 3000
+$EndSCHEMATC
