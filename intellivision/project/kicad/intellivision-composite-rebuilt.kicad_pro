@@ -70,7 +70,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|92750000|88500000|ef69c364-ac6e-4daf-a7d5-139b3c69cdcf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|92750000|95500000|311d10dc-5ef9-40e6-b088-037b1d661705|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -496,7 +505,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -665,7 +674,7 @@
         "uuid": "47fa711f-e952-4277-8d24-ac8ef3d4e81c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR3",
     "variants": []
   },
   "sheets": [

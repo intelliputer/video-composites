@@ -980,6 +980,12 @@
 		(uuid "4c1f8957-86b8-430b-9390-1596820490db")
 	)
 	(junction
+		(at 102.87 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "681c9194-c9f6-4901-9ac5-49ba5cd2b47e")
+	)
+	(junction
 		(at 160.02 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1243,6 +1249,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7596e13-a537-4c9c-8864-b532cc379026")
+	)
+	(wire
+		(pts
 			(xy 181.61 71.12) (xy 193.04 71.12)
 		)
 		(stroke
@@ -1263,7 +1279,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 193.04 101.6)
+			(xy 76.2 101.6) (xy 102.87 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1511,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 71.12 76.2 270)
+		(at 71.12 76.2 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1761,7 +1778,7 @@
 				(justify left)
 			)
 		)
-			(property "Footprint" "Intellivision:TO-92_Inline_OAR175"
+		(property "Footprint" "Intellivision:TO-92_Inline_OAR175"
 			(at 116.84 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2236,7 +2253,7 @@
 				(justify left)
 			)
 		)
-			(property "Footprint" "Intellivision:TO-92_Inline_OAR175"
+		(property "Footprint" "Intellivision:TO-92_Inline_OAR175"
 			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3042,6 +3059,84 @@
 			(project "intellivision-composite-rebuilt"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63cdc505-9f15-4f4a-82ea-935cc4c1ff2f")
+		(property "Reference" "#PWR03"
+			(at 102.87 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "403c6f9d-7df6-4ef0-830b-8240cb1f7c0b")
+		)
+		(instances
+			(project "intellivision-composite-rebuilt"
+				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
