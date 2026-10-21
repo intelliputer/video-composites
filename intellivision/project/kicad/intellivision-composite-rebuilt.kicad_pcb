@@ -6286,6 +6286,7 @@
 		(property "Reference" "R8"
 			(at 5.08 -2.37 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e1794449-5cf1-4059-8f76-07f020540312")
 			(effects
 				(font
@@ -9747,46 +9748,52 @@
 		(layer "Edge.Cuts")
 		(uuid "ef2e18d8-a2b1-4fde-a71d-485fef9511ee")
 	)
-	(gr_text "R1"
+	(gr_text "51k"
 		(at 73.7 73)
 		(layer "F.SilkS")
 		(uuid "eac0b5d2-0712-4ba8-869e-65b38b71b9b9")
 		(effects (font (size 0.8 0.8) (thickness 0.12)))
 	)
-	(gr_text "R2"
+	(gr_text "33k"
 		(at 72.5 94)
 		(layer "F.SilkS")
 		(uuid "def2d127-05cc-44db-b84a-a52d905d8c4c")
 		(effects (font (size 0.8 0.8) (thickness 0.12)))
 	)
-	(gr_text "R3"
+	(gr_text "660R"
 		(at 81.7 68.5)
 		(layer "F.SilkS")
 		(uuid "11ad3a4c-a02d-479a-9c2a-c8e0882da113")
 		(effects (font (size 0.8 0.8) (thickness 0.12)))
 	)
-	(gr_text "R4"
+	(gr_text "330R"
 		(at 81.5 85)
 		(layer "F.SilkS")
 		(uuid "52c143fc-493e-4a82-ba1a-bf315b8bd7c5")
 		(effects (font (size 0.8 0.8) (thickness 0.12)))
 	)
-	(gr_text "R5"
+	(gr_text "15k"
 		(at 88.5 68.5)
 		(layer "F.SilkS")
 		(uuid "ac0e3982-82ac-48ed-99bd-4546fa9b86cc")
 		(effects (font (size 0.8 0.8) (thickness 0.12)))
 	)
-	(gr_text "R6"
+	(gr_text "22k"
 		(at 85.6 92 90)
 		(layer "F.SilkS")
 		(uuid "ad364e58-350f-49c7-8e63-d354b510c7c1")
 		(effects (font (size 0.8 0.8) (thickness 0.12)))
 	)
-	(gr_text "R7"
+	(gr_text "75R"
 		(at 97.5 73)
 		(layer "F.SilkS")
 		(uuid "e8674727-2f3d-44a5-bb9c-c6ea010d8b8e")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(gr_text "22R"
+		(at 85.13 81.84)
+		(layer "F.SilkS")
+		(uuid "c9e9bc80-8d12-482d-afac-90bc0a988cc7")
 		(effects (font (size 0.8 0.8) (thickness 0.12)))
 	)
 	(segment
