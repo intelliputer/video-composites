@@ -181,7 +181,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -193,7 +192,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -205,7 +203,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -501,7 +498,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "intellivision-composite-rebuilt.kicad_pro",
+    "filename": "intv-video-composite.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -529,8 +526,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -672,8 +669,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "intellivision-composite-rebuilt.kicad_sch",
-        "name": "intellivision-composite-rebuilt",
+        "filename": "intv-video-composite.kicad_sch",
+        "name": "intv-video-composite",
         "uuid": "47fa711f-e952-4277-8d24-ac8ef3d4e81c"
       }
     ],
@@ -683,7 +680,7 @@
   "sheets": [
     [
       "47fa711f-e952-4277-8d24-ac8ef3d4e81c",
-      "intellivision-composite-rebuilt"
+      "intv-video-composite"
     ]
   ],
   "text_variables": {},

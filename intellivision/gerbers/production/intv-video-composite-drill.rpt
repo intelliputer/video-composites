@@ -1,5 +1,5 @@
-Drill report for intellivision-composite-rebuilt.kicad_pcb
-Created on 2026-10-20T19:12:41
+Drill report for intv-video-composite.kicad_pcb
+Created on 2026-10-21T14:09:23
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'intellivision-composite-rebuilt.drl' contains
+Drill file 'intv-video-composite.drl' contains
     plated through holes:
     =============================================================
     T1  0.750mm  0.0295"  (6 holes))

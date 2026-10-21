@@ -1353,7 +1353,7 @@
 			(uuid "ce64ec9d-52d6-4f00-ad93-2819ab2e6560")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "#PWR01")
 					(unit 1)
@@ -1427,7 +1427,7 @@
 			(uuid "59810710-4b95-4869-a3c7-4f82a9b25826")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "#PWR02")
 					(unit 1)
@@ -1501,7 +1501,7 @@
 			(uuid "fd2d0187-9ae4-40e9-b988-b97d5afc40dc")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J1")
 					(unit 1)
@@ -1579,7 +1579,7 @@
 			(uuid "b93dd982-2a18-4879-8dc8-c0087d51ae53")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "C1")
 					(unit 1)
@@ -1658,7 +1658,7 @@
 			(uuid "ad56b1fd-3a13-4975-9079-ec5b0e3c4526")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R1")
 					(unit 1)
@@ -1737,7 +1737,7 @@
 			(uuid "6cd92983-18b5-4824-a51f-ab6d1b7d916c")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R2")
 					(unit 1)
@@ -1819,7 +1819,7 @@
 			(uuid "e5aa91db-3186-46e0-a016-0796a81691b1")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "Q1")
 					(unit 1)
@@ -1898,7 +1898,7 @@
 			(uuid "057d91f6-8800-4d96-b124-003da78edaf3")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R3")
 					(unit 1)
@@ -1977,7 +1977,7 @@
 			(uuid "fa6cb9d9-0b8e-4f07-bb96-f3bb6816f79d")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R4")
 					(unit 1)
@@ -2054,7 +2054,7 @@
 			(uuid "e84a3d52-509d-47d0-a09a-775ce68f6520")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "C2")
 					(unit 1)
@@ -2133,7 +2133,7 @@
 			(uuid "6083a315-1147-4178-b574-f0d395987796")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R5")
 					(unit 1)
@@ -2212,7 +2212,7 @@
 			(uuid "f2462e3f-8392-412d-b8e0-337e30f0f83c")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R6")
 					(unit 1)
@@ -2294,7 +2294,7 @@
 			(uuid "587ffeb4-9d65-48a9-91fc-5fc9ddd81472")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "Q2")
 					(unit 1)
@@ -2373,7 +2373,7 @@
 			(uuid "46c1c1c5-b575-4c7e-a960-9b4d8a6d3f13")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R7")
 					(unit 1)
@@ -2452,7 +2452,7 @@
 			(uuid "22b471de-8953-458a-a72f-fb5fd1d38210")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "R8")
 					(unit 1)
@@ -2529,7 +2529,7 @@
 			(uuid "a8ab0919-4f6b-4ca1-a572-7dc9ae487068")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "C3")
 					(unit 1)
@@ -2605,7 +2605,7 @@
 			(uuid "db3e8573-6663-43be-bdcd-c44ee4c236d3")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J2")
 					(unit 1)
@@ -2679,7 +2679,7 @@
 			(uuid "60c54574-e690-424c-9353-75614b612bd2")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J3")
 					(unit 1)
@@ -2756,7 +2756,7 @@
 			(uuid "5d72cc2b-ac0d-4665-bf39-0af94ec4e083")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "C4")
 					(unit 1)
@@ -2832,7 +2832,7 @@
 			(uuid "d3ef9694-16fa-40eb-9fcb-7db3466b950f")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J4")
 					(unit 1)
@@ -2906,7 +2906,7 @@
 			(uuid "49511bd6-8f34-4066-bfe1-3b12ab936608")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J5")
 					(unit 1)
@@ -2980,7 +2980,7 @@
 			(uuid "ca3bd4b2-ea96-44a9-a30b-cdb3cb9dabb3")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J6")
 					(unit 1)
@@ -3056,7 +3056,7 @@
 			(uuid "7da22dc7-dc8f-4811-91ac-e99abfaf2964")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "J7")
 					(unit 1)
@@ -3134,7 +3134,7 @@
 			(uuid "403c6f9d-7df6-4ef0-830b-8240cb1f7c0b")
 		)
 		(instances
-			(project "intellivision-composite-rebuilt"
+			(project "intv-video-composite"
 				(path "/47fa711f-e952-4277-8d24-ac8ef3d4e81c"
 					(reference "#PWR03")
 					(unit 1)

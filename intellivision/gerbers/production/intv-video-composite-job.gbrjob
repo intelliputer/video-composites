@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "10.0.7"
     },
-    "CreationDate": "2026-10-20T19:12:41+02:00"
+    "CreationDate": "2026-10-21T14:09:23+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "intellivision-composite-rebuilt",
-      "GUID": "696e7465-6c6c-4697-9669-73696f6e2d63",
+      "Name": "intv-video-composite",
+      "GUID": "696e7476-2d76-4696-9465-6f2d636f6d70",
       "Revision": "rev?"
     },
     "Size": {
@@ -32,47 +32,32 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "intellivision-composite-rebuilt-F_Cu.gbr",
+      "Path": "intv-video-composite-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "intellivision-composite-rebuilt-B_Cu.gbr",
+      "Path": "intv-video-composite-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "intellivision-composite-rebuilt-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "intellivision-composite-rebuilt-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "intellivision-composite-rebuilt-F_Silkscreen.gbr",
+      "Path": "intv-video-composite-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "intellivision-composite-rebuilt-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "intellivision-composite-rebuilt-F_Mask.gbr",
+      "Path": "intv-video-composite-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "intellivision-composite-rebuilt-B_Mask.gbr",
+      "Path": "intv-video-composite-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "intellivision-composite-rebuilt-Edge_Cuts.gbr",
+      "Path": "intv-video-composite-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

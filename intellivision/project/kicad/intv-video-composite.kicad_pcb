@@ -193,7 +193,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000006")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -274,17 +274,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "9cce8f82-cc21-4d3e-800e-37a6442f09df")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "c8e16c36-07fa-4077-9d4b-597a7709869f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -386,7 +375,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000005")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -467,17 +456,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "caf47324-a985-434a-843a-48e0b7c84b82")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "5f067893-1f21-4f2c-bc10-889f2ab69005")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -578,7 +556,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000000000020")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -798,7 +776,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/00000000-0000-0000-0000-000000000013")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1002,7 +980,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000000000023")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1233,7 +1211,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000000000003")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1465,7 +1443,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000011")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1546,17 +1524,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "9b31dcc2-f6ea-4252-bf0b-3f65a9884c5a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "2ac2d120-1ff3-465f-929e-ff485c200d58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -1658,7 +1625,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000008")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1739,17 +1706,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "ca252acd-946d-4ed8-ac6c-8a0538f81344")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "e6defba0-feae-4ee9-bf89-89d97e146fde")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -1851,7 +1807,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000000000010")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3353,7 +3309,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/00000000-0000-0000-0000-000000000007")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3557,7 +3513,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000000000022")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3789,7 +3745,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000012")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3870,17 +3826,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "41dd5840-6c8d-42c3-b0dd-164d4932c05c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "ef09faec-20c1-4ce7-b958-8efead0421c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -3981,7 +3926,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000000000021")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4212,7 +4157,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000000000018")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4444,7 +4389,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000000000004")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5958,7 +5903,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000009")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6039,17 +5984,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "c98b363b-0440-4a65-8dd0-afcda9779150")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "a4a29c40-b380-430a-a10b-1fabce1b9fec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -6151,7 +6085,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000014")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6232,17 +6166,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "b94ca5b5-9600-4834-9793-2d34a7ca6fc3")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "fb2b9624-a426-4f74-a10e-98edd1ccf211")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -6344,7 +6267,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000000000015")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6425,17 +6348,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "25f5fa92-77db-4070-a16f-238e714e8c6f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "ddfa0c69-3db7-4fd4-92b4-8fd854b493c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -6536,7 +6448,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000000000017")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6768,7 +6680,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000000000019")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8287,7 +8199,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000000000016")
 		(sheetname "/")
-		(sheetfile "intellivision-composite-rebuilt.kicad_sch")
+		(sheetfile "intv-video-composite.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8297,8 +8209,8 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 4.490000 0.402000)
-			(end 4.490000 -0.402000)
+			(start 4.49 0.402)
+			(end 4.49 -0.402)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8307,8 +8219,8 @@
 			(uuid "2782a8f8-cd52-4b8d-a4a8-e3362349a822")
 		)
 		(fp_line
-			(start 4.450000 0.633000)
-			(end 4.450000 -0.633000)
+			(start 4.45 0.633)
+			(end 4.45 -0.633)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8317,8 +8229,8 @@
 			(uuid "49b95bc8-0876-47b3-b256-6caa938e23f9")
 		)
 		(fp_line
-			(start 4.410000 0.801000)
-			(end 4.410000 -0.801000)
+			(start 4.41 0.801)
+			(end 4.41 -0.801)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8327,8 +8239,8 @@
 			(uuid "7382973a-8a5b-42fb-8c63-c386d5bf9092")
 		)
 		(fp_line
-			(start 4.370000 0.939000)
-			(end 4.370000 -0.939000)
+			(start 4.37 0.939)
+			(end 4.37 -0.939)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8337,8 +8249,8 @@
 			(uuid "4df2ef73-1fee-4b66-a181-8fcdeb99977b")
 		)
 		(fp_line
-			(start 4.330000 1.058000)
-			(end 4.330000 -1.058000)
+			(start 4.33 1.058)
+			(end 4.33 -1.058)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8347,8 +8259,8 @@
 			(uuid "3198fd54-a3d1-4cf7-96b2-f4c12638b970")
 		)
 		(fp_line
-			(start 4.290000 1.165000)
-			(end 4.290000 -1.165000)
+			(start 4.29 1.165)
+			(end 4.29 -1.165)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8357,8 +8269,8 @@
 			(uuid "3aa12893-475d-436b-8cef-4645dc6d5de0")
 		)
 		(fp_line
-			(start 4.250000 1.261000)
-			(end 4.250000 -1.261000)
+			(start 4.25 1.261)
+			(end 4.25 -1.261)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8367,8 +8279,8 @@
 			(uuid "f7416e7b-6699-4998-9397-6afdac581dad")
 		)
 		(fp_line
-			(start 4.210000 1.350000)
-			(end 4.210000 -1.350000)
+			(start 4.21 1.35)
+			(end 4.21 -1.35)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8377,8 +8289,8 @@
 			(uuid "9dee8292-a25b-499e-99da-7cc6852e1f6d")
 		)
 		(fp_line
-			(start 4.170000 1.432000)
-			(end 4.170000 -1.432000)
+			(start 4.17 1.432)
+			(end 4.17 -1.432)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8387,8 +8299,8 @@
 			(uuid "1f4daf31-ef3e-4515-977a-c977cb45055f")
 		)
 		(fp_line
-			(start 4.130000 1.509000)
-			(end 4.130000 -1.509000)
+			(start 4.13 1.509)
+			(end 4.13 -1.509)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8397,8 +8309,8 @@
 			(uuid "5e90461e-7adf-4d32-8074-04351833318f")
 		)
 		(fp_line
-			(start 4.090000 1.581000)
-			(end 4.090000 -1.581000)
+			(start 4.09 1.581)
+			(end 4.09 -1.581)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8407,8 +8319,8 @@
 			(uuid "a33edd74-1cdc-4f89-9579-82da5a1f18dd")
 		)
 		(fp_line
-			(start 4.050000 1.649000)
-			(end 4.050000 -1.649000)
+			(start 4.05 1.649)
+			(end 4.05 -1.649)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8417,8 +8329,8 @@
 			(uuid "58c8da94-c443-4058-a67d-28b2dbab110e")
 		)
 		(fp_line
-			(start 4.010000 1.714000)
-			(end 4.010000 -1.714000)
+			(start 4.01 1.714)
+			(end 4.01 -1.714)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8427,8 +8339,8 @@
 			(uuid "80d21efe-b22b-4380-b3a6-ed9736bd4a58")
 		)
 		(fp_line
-			(start 3.970000 1.775000)
-			(end 3.970000 -1.775000)
+			(start 3.97 1.775)
+			(end 3.97 -1.775)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8437,8 +8349,8 @@
 			(uuid "6f8ae9cc-5847-4a32-8478-08ba736080ed")
 		)
 		(fp_line
-			(start 3.930000 1.834000)
-			(end 3.930000 -1.834000)
+			(start 3.93 1.834)
+			(end 3.93 -1.834)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8447,8 +8359,8 @@
 			(uuid "467cd278-fb74-4959-ab98-0d1fbc310791")
 		)
 		(fp_line
-			(start 3.890000 1.890000)
-			(end 3.890000 -1.890000)
+			(start 3.89 1.89)
+			(end 3.89 -1.89)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8457,8 +8369,8 @@
 			(uuid "38fbe8c8-467c-4021-8929-d64300e2c309")
 		)
 		(fp_line
-			(start 3.850000 1.943000)
-			(end 3.850000 -1.943000)
+			(start 3.85 1.943)
+			(end 3.85 -1.943)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8467,8 +8379,8 @@
 			(uuid "7e7e547b-206e-4eb1-ac1e-127d26aad482")
 		)
 		(fp_line
-			(start 3.810000 1.995000)
-			(end 3.810000 -1.995000)
+			(start 3.81 1.995)
+			(end 3.81 -1.995)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8477,8 +8389,8 @@
 			(uuid "ce37566a-2f4d-4a81-805a-02930d5d3d9e")
 		)
 		(fp_line
-			(start 3.770000 2.044000)
-			(end 3.770000 -2.044000)
+			(start 3.77 2.044)
+			(end 3.77 -2.044)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8487,8 +8399,8 @@
 			(uuid "ef83e528-86e1-438d-9974-c27aef8c19fd")
 		)
 		(fp_line
-			(start 3.730000 2.091000)
-			(end 3.730000 -2.091000)
+			(start 3.73 2.091)
+			(end 3.73 -2.091)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8497,8 +8409,8 @@
 			(uuid "d4f11d92-68b3-4b25-bf1f-d481862f1822")
 		)
 		(fp_line
-			(start 3.690000 2.137000)
-			(end 3.690000 -2.137000)
+			(start 3.69 2.137)
+			(end 3.69 -2.137)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8507,8 +8419,8 @@
 			(uuid "1c45b074-5d8c-4a37-9e4b-5787325222ef")
 		)
 		(fp_line
-			(start 3.650000 2.181000)
-			(end 3.650000 -2.181000)
+			(start 3.65 2.181)
+			(end 3.65 -2.181)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8517,8 +8429,8 @@
 			(uuid "5df10393-35a6-4966-a296-fb8041a3cfe0")
 		)
 		(fp_line
-			(start 3.610000 2.223000)
-			(end 3.610000 -2.223000)
+			(start 3.61 2.223)
+			(end 3.61 -2.223)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8527,8 +8439,8 @@
 			(uuid "fa74160c-4ddb-4c24-b86a-1bf86b968b6d")
 		)
 		(fp_line
-			(start 3.570000 2.264000)
-			(end 3.570000 -2.264000)
+			(start 3.57 2.264)
+			(end 3.57 -2.264)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8537,8 +8449,8 @@
 			(uuid "aacea81b-9b71-45b6-bc3f-b1d006380f8e")
 		)
 		(fp_line
-			(start 3.530000 2.304000)
-			(end 3.530000 1.040000)
+			(start 3.53 2.304)
+			(end 3.53 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8547,8 +8459,8 @@
 			(uuid "d5fc7a22-601c-44a2-b25d-727e807c99eb")
 		)
 		(fp_line
-			(start 3.530000 -1.040000)
-			(end 3.530000 -2.304000)
+			(start 3.53 -1.04)
+			(end 3.53 -2.304)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8557,8 +8469,8 @@
 			(uuid "eb56a0b4-415d-4a11-8d00-6fdac573fe5d")
 		)
 		(fp_line
-			(start 3.490000 2.342000)
-			(end 3.490000 1.040000)
+			(start 3.49 2.342)
+			(end 3.49 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8567,8 +8479,8 @@
 			(uuid "bcba0609-f908-4d80-a1a2-8eb7f14997f6")
 		)
 		(fp_line
-			(start 3.490000 -1.040000)
-			(end 3.490000 -2.342000)
+			(start 3.49 -1.04)
+			(end 3.49 -2.342)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8577,8 +8489,8 @@
 			(uuid "4cf95058-df57-40ac-8a5e-e8f955c82ee5")
 		)
 		(fp_line
-			(start 3.450000 2.379000)
-			(end 3.450000 1.040000)
+			(start 3.45 2.379)
+			(end 3.45 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8587,8 +8499,8 @@
 			(uuid "8c81d254-5082-46e3-ab3c-34cb383c230f")
 		)
 		(fp_line
-			(start 3.450000 -1.040000)
-			(end 3.450000 -2.379000)
+			(start 3.45 -1.04)
+			(end 3.45 -2.379)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8597,8 +8509,8 @@
 			(uuid "232db26d-5ad6-4a95-89ed-42784c451c75")
 		)
 		(fp_line
-			(start 3.410000 2.415000)
-			(end 3.410000 1.040000)
+			(start 3.41 2.415)
+			(end 3.41 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8607,8 +8519,8 @@
 			(uuid "63ddef83-c8ee-4650-81ef-58c933e44deb")
 		)
 		(fp_line
-			(start 3.410000 -1.040000)
-			(end 3.410000 -2.415000)
+			(start 3.41 -1.04)
+			(end 3.41 -2.415)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8617,8 +8529,8 @@
 			(uuid "1dd52871-ff73-40b5-b94d-79ed39a30c43")
 		)
 		(fp_line
-			(start 3.370000 2.450000)
-			(end 3.370000 1.040000)
+			(start 3.37 2.45)
+			(end 3.37 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8627,8 +8539,8 @@
 			(uuid "6852f155-0112-4ff8-9cd2-39089876cb4b")
 		)
 		(fp_line
-			(start 3.370000 -1.040000)
-			(end 3.370000 -2.450000)
+			(start 3.37 -1.04)
+			(end 3.37 -2.45)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8637,8 +8549,8 @@
 			(uuid "a537f681-2a15-417a-b882-7e6133d026d2")
 		)
 		(fp_line
-			(start 3.330000 2.483000)
-			(end 3.330000 1.040000)
+			(start 3.33 2.483)
+			(end 3.33 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8647,8 +8559,8 @@
 			(uuid "44b40f0b-0152-4470-b6e5-ee38c27ecdf4")
 		)
 		(fp_line
-			(start 3.330000 -1.040000)
-			(end 3.330000 -2.483000)
+			(start 3.33 -1.04)
+			(end 3.33 -2.483)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8657,8 +8569,8 @@
 			(uuid "2b112407-4610-4aff-9c78-f341dd503055")
 		)
 		(fp_line
-			(start 3.290000 2.516000)
-			(end 3.290000 1.040000)
+			(start 3.29 2.516)
+			(end 3.29 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8667,8 +8579,8 @@
 			(uuid "f8a77094-44b4-414b-8cb7-257bb4ca0db8")
 		)
 		(fp_line
-			(start 3.290000 -1.040000)
-			(end 3.290000 -2.516000)
+			(start 3.29 -1.04)
+			(end 3.29 -2.516)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8677,8 +8589,8 @@
 			(uuid "b3869e67-4d60-4270-a1d2-818476d4357d")
 		)
 		(fp_line
-			(start 3.250000 2.547000)
-			(end 3.250000 1.040000)
+			(start 3.25 2.547)
+			(end 3.25 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8687,8 +8599,8 @@
 			(uuid "a1f9a5bc-8929-41d5-a174-4aa568e3aa98")
 		)
 		(fp_line
-			(start 3.250000 -1.040000)
-			(end 3.250000 -2.547000)
+			(start 3.25 -1.04)
+			(end 3.25 -2.547)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8697,8 +8609,8 @@
 			(uuid "bdf6038a-cb17-4121-8140-dc56694bc136")
 		)
 		(fp_line
-			(start 3.210000 2.577000)
-			(end 3.210000 1.040000)
+			(start 3.21 2.577)
+			(end 3.21 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8707,8 +8619,8 @@
 			(uuid "428455d2-889c-4aab-9514-dbb9a4e3e934")
 		)
 		(fp_line
-			(start 3.210000 -1.040000)
-			(end 3.210000 -2.577000)
+			(start 3.21 -1.04)
+			(end 3.21 -2.577)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8717,8 +8629,8 @@
 			(uuid "029a8a58-ad28-400f-b24c-f1be04e6e776")
 		)
 		(fp_line
-			(start 3.170000 2.607000)
-			(end 3.170000 1.040000)
+			(start 3.17 2.607)
+			(end 3.17 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8727,8 +8639,8 @@
 			(uuid "108a9d79-f355-4fdd-b0c4-13f47a45ddf3")
 		)
 		(fp_line
-			(start 3.170000 -1.040000)
-			(end 3.170000 -2.607000)
+			(start 3.17 -1.04)
+			(end 3.17 -2.607)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8737,8 +8649,8 @@
 			(uuid "809602ca-e774-4c41-9c05-f8c1ac66bd31")
 		)
 		(fp_line
-			(start 3.130000 2.636000)
-			(end 3.130000 1.040000)
+			(start 3.13 2.636)
+			(end 3.13 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8747,8 +8659,8 @@
 			(uuid "00a8ec49-7d6e-4068-99fa-ad17fbd065d1")
 		)
 		(fp_line
-			(start 3.130000 -1.040000)
-			(end 3.130000 -2.636000)
+			(start 3.13 -1.04)
+			(end 3.13 -2.636)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8757,8 +8669,8 @@
 			(uuid "80fbff88-c19d-4d70-974a-2849e65e0e08")
 		)
 		(fp_line
-			(start 3.090000 2.663000)
-			(end 3.090000 1.040000)
+			(start 3.09 2.663)
+			(end 3.09 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8767,8 +8679,8 @@
 			(uuid "a099628c-dc7c-46ef-8964-5bc8160c41fd")
 		)
 		(fp_line
-			(start 3.090000 -1.040000)
-			(end 3.090000 -2.663000)
+			(start 3.09 -1.04)
+			(end 3.09 -2.663)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8777,8 +8689,8 @@
 			(uuid "d30c3570-c826-4b05-9c68-1312c996cc2c")
 		)
 		(fp_line
-			(start 3.050000 2.690000)
-			(end 3.050000 1.040000)
+			(start 3.05 2.69)
+			(end 3.05 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8787,8 +8699,8 @@
 			(uuid "b061d2bd-3a8f-48f7-ae7f-54877b5e2712")
 		)
 		(fp_line
-			(start 3.050000 -1.040000)
-			(end 3.050000 -2.690000)
+			(start 3.05 -1.04)
+			(end 3.05 -2.69)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8797,8 +8709,8 @@
 			(uuid "cdf63060-aad4-4a69-ba6a-caebb8f8491a")
 		)
 		(fp_line
-			(start 3.010000 2.716000)
-			(end 3.010000 1.040000)
+			(start 3.01 2.716)
+			(end 3.01 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8807,8 +8719,8 @@
 			(uuid "7dfa86c8-d102-4d1d-bf45-168475963fb8")
 		)
 		(fp_line
-			(start 3.010000 -1.040000)
-			(end 3.010000 -2.716000)
+			(start 3.01 -1.04)
+			(end 3.01 -2.716)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8817,8 +8729,8 @@
 			(uuid "3085ba96-53b8-4761-a293-b1069aaa0057")
 		)
 		(fp_line
-			(start 2.970000 2.741000)
-			(end 2.970000 1.040000)
+			(start 2.97 2.741)
+			(end 2.97 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8827,8 +8739,8 @@
 			(uuid "653192f2-ced7-4613-b199-fab40f3e2a19")
 		)
 		(fp_line
-			(start 2.970000 -1.040000)
-			(end 2.970000 -2.741000)
+			(start 2.97 -1.04)
+			(end 2.97 -2.741)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8837,8 +8749,8 @@
 			(uuid "5512e776-1692-4789-9206-5a60b110453f")
 		)
 		(fp_line
-			(start 2.930000 2.765000)
-			(end 2.930000 1.040000)
+			(start 2.93 2.765)
+			(end 2.93 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8847,8 +8759,8 @@
 			(uuid "92772526-5ef4-49c1-82c6-b5f9961fca08")
 		)
 		(fp_line
-			(start 2.930000 -1.040000)
-			(end 2.930000 -2.765000)
+			(start 2.93 -1.04)
+			(end 2.93 -2.765)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8857,8 +8769,8 @@
 			(uuid "7eb40c0a-3ede-4db6-8572-cb0e630c86e6")
 		)
 		(fp_line
-			(start 2.890000 2.789000)
-			(end 2.890000 1.040000)
+			(start 2.89 2.789)
+			(end 2.89 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8867,8 +8779,8 @@
 			(uuid "9b5ea550-e539-4e7a-9629-efa08a9dcb41")
 		)
 		(fp_line
-			(start 2.890000 -1.040000)
-			(end 2.890000 -2.789000)
+			(start 2.89 -1.04)
+			(end 2.89 -2.789)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8877,8 +8789,8 @@
 			(uuid "03a65385-df67-48b4-8d7b-6758f06222a3")
 		)
 		(fp_line
-			(start 2.850000 2.812000)
-			(end 2.850000 1.040000)
+			(start 2.85 2.812)
+			(end 2.85 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8887,8 +8799,8 @@
 			(uuid "f7875168-74a0-4494-b7ef-72268b6974ba")
 		)
 		(fp_line
-			(start 2.850000 -1.040000)
-			(end 2.850000 -2.812000)
+			(start 2.85 -1.04)
+			(end 2.85 -2.812)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8897,8 +8809,8 @@
 			(uuid "a3a53064-52d8-4c0e-93e9-3322ed59e03b")
 		)
 		(fp_line
-			(start 2.810000 2.834000)
-			(end 2.810000 1.040000)
+			(start 2.81 2.834)
+			(end 2.81 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8907,8 +8819,8 @@
 			(uuid "e3ef9c23-08e5-4e0f-a9ff-742a9dd594d4")
 		)
 		(fp_line
-			(start 2.810000 -1.040000)
-			(end 2.810000 -2.834000)
+			(start 2.81 -1.04)
+			(end 2.81 -2.834)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8917,8 +8829,8 @@
 			(uuid "537ecdea-5d66-4c82-a6d6-f1e9d0a46417")
 		)
 		(fp_line
-			(start 2.770000 2.855000)
-			(end 2.770000 1.040000)
+			(start 2.77 2.855)
+			(end 2.77 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8927,8 +8839,8 @@
 			(uuid "12d6c186-f773-44d0-8069-bf3d74786072")
 		)
 		(fp_line
-			(start 2.770000 -1.040000)
-			(end 2.770000 -2.855000)
+			(start 2.77 -1.04)
+			(end 2.77 -2.855)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8937,8 +8849,8 @@
 			(uuid "dabe5cd2-6f0d-459f-a64d-d6375ac3dabd")
 		)
 		(fp_line
-			(start 2.730000 2.876000)
-			(end 2.730000 1.040000)
+			(start 2.73 2.876)
+			(end 2.73 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8947,8 +8859,8 @@
 			(uuid "df582480-145c-408a-86c0-8cbcb05cb221")
 		)
 		(fp_line
-			(start 2.730000 -1.040000)
-			(end 2.730000 -2.876000)
+			(start 2.73 -1.04)
+			(end 2.73 -2.876)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8957,8 +8869,8 @@
 			(uuid "9086203e-4528-4777-ae9b-8ab060abd2be")
 		)
 		(fp_line
-			(start 2.690000 2.896000)
-			(end 2.690000 1.040000)
+			(start 2.69 2.896)
+			(end 2.69 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8967,8 +8879,8 @@
 			(uuid "a68a2ed0-a7fd-42d2-8d54-3bc835b03eb4")
 		)
 		(fp_line
-			(start 2.690000 -1.040000)
-			(end 2.690000 -2.896000)
+			(start 2.69 -1.04)
+			(end 2.69 -2.896)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8977,8 +8889,8 @@
 			(uuid "ec3cb6da-ef14-4551-a0eb-7c4d310266fa")
 		)
 		(fp_line
-			(start 2.650000 2.915000)
-			(end 2.650000 1.040000)
+			(start 2.65 2.915)
+			(end 2.65 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8987,8 +8899,8 @@
 			(uuid "2d6f29be-56b2-4aae-948c-b65a7cde9f94")
 		)
 		(fp_line
-			(start 2.650000 -1.040000)
-			(end 2.650000 -2.915000)
+			(start 2.65 -1.04)
+			(end 2.65 -2.915)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8997,8 +8909,8 @@
 			(uuid "dc61ff59-038b-4bad-940c-c9d52595d238")
 		)
 		(fp_line
-			(start 2.610000 2.934000)
-			(end 2.610000 1.040000)
+			(start 2.61 2.934)
+			(end 2.61 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9007,8 +8919,8 @@
 			(uuid "204d5940-56df-45cd-a599-79f4a1475959")
 		)
 		(fp_line
-			(start 2.610000 -1.040000)
-			(end 2.610000 -2.934000)
+			(start 2.61 -1.04)
+			(end 2.61 -2.934)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9017,8 +8929,8 @@
 			(uuid "5dd41d06-7d5f-4878-bfad-e0d6bbc1cf21")
 		)
 		(fp_line
-			(start 2.570000 2.952000)
-			(end 2.570000 1.040000)
+			(start 2.57 2.952)
+			(end 2.57 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9027,8 +8939,8 @@
 			(uuid "65b26818-f195-49e2-9eda-38386cd8c3dc")
 		)
 		(fp_line
-			(start 2.570000 -1.040000)
-			(end 2.570000 -2.952000)
+			(start 2.57 -1.04)
+			(end 2.57 -2.952)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9037,8 +8949,8 @@
 			(uuid "2dffd7ef-b4ca-43b4-be03-e5ea20c8196e")
 		)
 		(fp_line
-			(start 2.530000 2.969000)
-			(end 2.530000 1.040000)
+			(start 2.53 2.969)
+			(end 2.53 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9047,8 +8959,8 @@
 			(uuid "65ff26bb-976e-4f2f-9f7c-1c44aa026ce2")
 		)
 		(fp_line
-			(start 2.530000 -1.040000)
-			(end 2.530000 -2.969000)
+			(start 2.53 -1.04)
+			(end 2.53 -2.969)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9057,8 +8969,8 @@
 			(uuid "c5366414-120b-4189-bd4a-439975f343ef")
 		)
 		(fp_line
-			(start 2.490000 2.986000)
-			(end 2.490000 1.040000)
+			(start 2.49 2.986)
+			(end 2.49 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9067,8 +8979,8 @@
 			(uuid "f930ecd7-c4dd-4c8a-818e-ba621e1fe1e1")
 		)
 		(fp_line
-			(start 2.490000 -1.040000)
-			(end 2.490000 -2.986000)
+			(start 2.49 -1.04)
+			(end 2.49 -2.986)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9077,8 +8989,8 @@
 			(uuid "1cd712fc-1bac-4117-9350-15a764962c66")
 		)
 		(fp_line
-			(start 2.450000 3.002000)
-			(end 2.450000 1.040000)
+			(start 2.45 3.002)
+			(end 2.45 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9087,8 +8999,8 @@
 			(uuid "5a157e52-2796-4529-96f9-6e8f2c7cd434")
 		)
 		(fp_line
-			(start 2.450000 -1.040000)
-			(end 2.450000 -3.002000)
+			(start 2.45 -1.04)
+			(end 2.45 -3.002)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9097,8 +9009,8 @@
 			(uuid "18397cc5-761c-4e21-8599-7df1099e9212")
 		)
 		(fp_line
-			(start 2.410000 3.017000)
-			(end 2.410000 1.040000)
+			(start 2.41 3.017)
+			(end 2.41 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9107,8 +9019,8 @@
 			(uuid "23375ded-624a-41aa-acc9-7c3ff70c4a8e")
 		)
 		(fp_line
-			(start 2.410000 -1.040000)
-			(end 2.410000 -3.017000)
+			(start 2.41 -1.04)
+			(end 2.41 -3.017)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9117,8 +9029,8 @@
 			(uuid "bc3567c2-dda7-422d-ad21-cc19001edb1e")
 		)
 		(fp_line
-			(start 2.370000 3.032000)
-			(end 2.370000 1.040000)
+			(start 2.37 3.032)
+			(end 2.37 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9127,8 +9039,8 @@
 			(uuid "534c5e3a-ed49-4939-b57f-26700586b4b1")
 		)
 		(fp_line
-			(start 2.370000 -1.040000)
-			(end 2.370000 -3.032000)
+			(start 2.37 -1.04)
+			(end 2.37 -3.032)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9137,8 +9049,8 @@
 			(uuid "10ed3fe7-d93d-4f1e-82d8-a0eae7c92a15")
 		)
 		(fp_line
-			(start 2.330000 3.047000)
-			(end 2.330000 1.040000)
+			(start 2.33 3.047)
+			(end 2.33 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9147,8 +9059,8 @@
 			(uuid "9f89dfb5-7b6b-441c-8e5f-6058fab8fb11")
 		)
 		(fp_line
-			(start 2.330000 -1.040000)
-			(end 2.330000 -3.047000)
+			(start 2.33 -1.04)
+			(end 2.33 -3.047)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9157,8 +9069,8 @@
 			(uuid "706699c1-4add-4924-b63d-5d2c07efce4b")
 		)
 		(fp_line
-			(start 2.290000 3.060000)
-			(end 2.290000 1.040000)
+			(start 2.29 3.06)
+			(end 2.29 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9167,8 +9079,8 @@
 			(uuid "de050a30-db7d-4d09-b4c8-9d6ccb44e23c")
 		)
 		(fp_line
-			(start 2.290000 -1.040000)
-			(end 2.290000 -3.060000)
+			(start 2.29 -1.04)
+			(end 2.29 -3.06)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9177,8 +9089,8 @@
 			(uuid "0d08bfb7-442f-470f-9d6e-628179cb4c2f")
 		)
 		(fp_line
-			(start 2.250000 3.073000)
-			(end 2.250000 1.040000)
+			(start 2.25 3.073)
+			(end 2.25 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9187,8 +9099,8 @@
 			(uuid "490ee203-ffb4-4ad7-94ee-d0e078eaa7e4")
 		)
 		(fp_line
-			(start 2.250000 -1.040000)
-			(end 2.250000 -3.073000)
+			(start 2.25 -1.04)
+			(end 2.25 -3.073)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9197,8 +9109,8 @@
 			(uuid "edbf0b6f-4c2a-4f58-b5e1-2993ec601f49")
 		)
 		(fp_line
-			(start 2.210000 3.086000)
-			(end 2.210000 1.040000)
+			(start 2.21 3.086)
+			(end 2.21 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9207,8 +9119,8 @@
 			(uuid "de2f9755-683c-480c-9b80-f1efb13c6e6f")
 		)
 		(fp_line
-			(start 2.210000 -1.040000)
-			(end 2.210000 -3.086000)
+			(start 2.21 -1.04)
+			(end 2.21 -3.086)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9217,8 +9129,8 @@
 			(uuid "8d686b86-ff63-400e-9c20-b0b5d4e1ad67")
 		)
 		(fp_line
-			(start 2.170000 3.098000)
-			(end 2.170000 1.040000)
+			(start 2.17 3.098)
+			(end 2.17 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9227,8 +9139,8 @@
 			(uuid "eda6d1d6-1e30-4222-a2ac-fa98f338fa9a")
 		)
 		(fp_line
-			(start 2.170000 -1.040000)
-			(end 2.170000 -3.098000)
+			(start 2.17 -1.04)
+			(end 2.17 -3.098)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9237,8 +9149,8 @@
 			(uuid "e3d00512-af58-4599-a0f8-85b678df3d3e")
 		)
 		(fp_line
-			(start 2.130000 3.109000)
-			(end 2.130000 1.040000)
+			(start 2.13 3.109)
+			(end 2.13 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9247,8 +9159,8 @@
 			(uuid "3df1a13b-4f47-464e-b75c-886ec44a0027")
 		)
 		(fp_line
-			(start 2.130000 -1.040000)
-			(end 2.130000 -3.109000)
+			(start 2.13 -1.04)
+			(end 2.13 -3.109)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9257,8 +9169,8 @@
 			(uuid "09085f59-3047-4c3d-975b-90498a6837dc")
 		)
 		(fp_line
-			(start 2.090000 3.120000)
-			(end 2.090000 1.040000)
+			(start 2.09 3.12)
+			(end 2.09 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9267,8 +9179,8 @@
 			(uuid "33874f4f-ef64-4c45-aef2-303ead22b4e9")
 		)
 		(fp_line
-			(start 2.090000 -1.040000)
-			(end 2.090000 -3.120000)
+			(start 2.09 -1.04)
+			(end 2.09 -3.12)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9277,8 +9189,8 @@
 			(uuid "e77b59d5-8180-40e5-a954-904cba84234e")
 		)
 		(fp_line
-			(start 2.050000 3.131000)
-			(end 2.050000 1.040000)
+			(start 2.05 3.131)
+			(end 2.05 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9287,8 +9199,8 @@
 			(uuid "404dc526-6840-4b19-8b45-e16e16d925a0")
 		)
 		(fp_line
-			(start 2.050000 -1.040000)
-			(end 2.050000 -3.131000)
+			(start 2.05 -1.04)
+			(end 2.05 -3.131)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9297,8 +9209,8 @@
 			(uuid "2ba8562b-714a-4eaf-aa41-a35d37f3ba5b")
 		)
 		(fp_line
-			(start 2.010000 3.140000)
-			(end 2.010000 1.040000)
+			(start 2.01 3.14)
+			(end 2.01 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9307,8 +9219,8 @@
 			(uuid "9691fdb3-daa2-442d-a8df-2cb191cb7f29")
 		)
 		(fp_line
-			(start 2.010000 -1.040000)
-			(end 2.010000 -3.140000)
+			(start 2.01 -1.04)
+			(end 2.01 -3.14)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9317,8 +9229,8 @@
 			(uuid "37ca96ef-0e39-4313-b819-3379f87322ac")
 		)
 		(fp_line
-			(start 1.970000 3.150000)
-			(end 1.970000 1.040000)
+			(start 1.97 3.15)
+			(end 1.97 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9327,8 +9239,8 @@
 			(uuid "201e4ccc-e4ac-484d-ba24-2a14b330b34b")
 		)
 		(fp_line
-			(start 1.970000 -1.040000)
-			(end 1.970000 -3.150000)
+			(start 1.97 -1.04)
+			(end 1.97 -3.15)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9337,8 +9249,8 @@
 			(uuid "a9d804ca-e52c-4f43-998e-33558639d7e4")
 		)
 		(fp_line
-			(start 1.930000 3.159000)
-			(end 1.930000 1.040000)
+			(start 1.93 3.159)
+			(end 1.93 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9347,8 +9259,8 @@
 			(uuid "4c1a8eef-0cc3-41f6-b8ee-1012f5cf8061")
 		)
 		(fp_line
-			(start 1.930000 -1.040000)
-			(end 1.930000 -3.159000)
+			(start 1.93 -1.04)
+			(end 1.93 -3.159)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9357,8 +9269,8 @@
 			(uuid "a995d0f0-30b8-4e0a-bed6-51273c0c006e")
 		)
 		(fp_line
-			(start 1.890000 3.167000)
-			(end 1.890000 1.040000)
+			(start 1.89 3.167)
+			(end 1.89 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9367,8 +9279,8 @@
 			(uuid "e8183453-c68d-476d-b3f3-863000304cfc")
 		)
 		(fp_line
-			(start 1.890000 -1.040000)
-			(end 1.890000 -3.167000)
+			(start 1.89 -1.04)
+			(end 1.89 -3.167)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9377,8 +9289,8 @@
 			(uuid "32285333-fa05-497e-8b17-06b2c5f40d99")
 		)
 		(fp_line
-			(start 1.850000 3.174000)
-			(end 1.850000 1.040000)
+			(start 1.85 3.174)
+			(end 1.85 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9387,8 +9299,8 @@
 			(uuid "710781bb-b1ad-4255-bd89-00c1ce76b1d2")
 		)
 		(fp_line
-			(start 1.850000 -1.040000)
-			(end 1.850000 -3.174000)
+			(start 1.85 -1.04)
+			(end 1.85 -3.174)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9397,8 +9309,8 @@
 			(uuid "e80b7594-9976-42a7-8a58-490e4acb5946")
 		)
 		(fp_line
-			(start 1.810000 3.182000)
-			(end 1.810000 1.040000)
+			(start 1.81 3.182)
+			(end 1.81 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9407,8 +9319,8 @@
 			(uuid "6a23c786-ab9a-41d5-8704-dac985b359f5")
 		)
 		(fp_line
-			(start 1.810000 -1.040000)
-			(end 1.810000 -3.182000)
+			(start 1.81 -1.04)
+			(end 1.81 -3.182)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9417,8 +9329,8 @@
 			(uuid "92041286-5e2d-47f9-adba-20e74e255561")
 		)
 		(fp_line
-			(start 1.770000 3.188000)
-			(end 1.770000 1.040000)
+			(start 1.77 3.188)
+			(end 1.77 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9427,8 +9339,8 @@
 			(uuid "4beca599-4307-41e8-b5f4-45a1d8b41861")
 		)
 		(fp_line
-			(start 1.770000 -1.040000)
-			(end 1.770000 -3.188000)
+			(start 1.77 -1.04)
+			(end 1.77 -3.188)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9437,8 +9349,8 @@
 			(uuid "35764688-18e9-4be0-a1c3-358a09f1e1fc")
 		)
 		(fp_line
-			(start 1.730000 3.195000)
-			(end 1.730000 1.040000)
+			(start 1.73 3.195)
+			(end 1.73 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9447,8 +9359,8 @@
 			(uuid "0af0079e-5193-4c35-876e-efbb74b0fccc")
 		)
 		(fp_line
-			(start 1.730000 -1.040000)
-			(end 1.730000 -3.195000)
+			(start 1.73 -1.04)
+			(end 1.73 -3.195)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9457,8 +9369,8 @@
 			(uuid "162e93b7-1b29-4e87-95f0-ac89071bbdb6")
 		)
 		(fp_line
-			(start 1.690000 3.200000)
-			(end 1.690000 1.040000)
+			(start 1.69 3.2)
+			(end 1.69 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9467,8 +9379,8 @@
 			(uuid "08a33e3d-0e14-486d-bc28-95c78c5e4b8d")
 		)
 		(fp_line
-			(start 1.690000 -1.040000)
-			(end 1.690000 -3.200000)
+			(start 1.69 -1.04)
+			(end 1.69 -3.2)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9477,8 +9389,8 @@
 			(uuid "0d8278f6-0619-4066-a0f9-d5b091a8e4c3")
 		)
 		(fp_line
-			(start 1.650000 3.205000)
-			(end 1.650000 1.040000)
+			(start 1.65 3.205)
+			(end 1.65 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9487,8 +9399,8 @@
 			(uuid "254cd8ac-88c3-4197-bcf5-f8d73876cefe")
 		)
 		(fp_line
-			(start 1.650000 -1.040000)
-			(end 1.650000 -3.205000)
+			(start 1.65 -1.04)
+			(end 1.65 -3.205)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9497,8 +9409,8 @@
 			(uuid "ff242f47-e806-4224-867c-69bad7d6b884")
 		)
 		(fp_line
-			(start 1.610000 3.210000)
-			(end 1.610000 1.040000)
+			(start 1.61 3.21)
+			(end 1.61 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9507,8 +9419,8 @@
 			(uuid "8ad99e8f-c227-4ec9-8797-90684be9ee9e")
 		)
 		(fp_line
-			(start 1.610000 -1.040000)
-			(end 1.610000 -3.210000)
+			(start 1.61 -1.04)
+			(end 1.61 -3.21)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9517,8 +9429,8 @@
 			(uuid "f5de09dd-f4fa-467f-bcbf-81b703025026")
 		)
 		(fp_line
-			(start 1.570000 3.214000)
-			(end 1.570000 1.040000)
+			(start 1.57 3.214)
+			(end 1.57 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9527,8 +9439,8 @@
 			(uuid "0afd0e12-338b-4fc1-a445-e4a788c73b33")
 		)
 		(fp_line
-			(start 1.570000 -1.040000)
-			(end 1.570000 -3.214000)
+			(start 1.57 -1.04)
+			(end 1.57 -3.214)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9537,8 +9449,8 @@
 			(uuid "35ebe66a-0189-4237-818c-4f330329133e")
 		)
 		(fp_line
-			(start 1.530000 3.218000)
-			(end 1.530000 1.040000)
+			(start 1.53 3.218)
+			(end 1.53 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9547,8 +9459,8 @@
 			(uuid "836f47f4-6cf3-4ac5-9443-09cdc8db5541")
 		)
 		(fp_line
-			(start 1.530000 -1.040000)
-			(end 1.530000 -3.218000)
+			(start 1.53 -1.04)
+			(end 1.53 -3.218)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9557,8 +9469,8 @@
 			(uuid "e9df8e9b-4815-47d3-a86b-7b8f9109bdc1")
 		)
 		(fp_line
-			(start 1.490000 3.221000)
-			(end 1.490000 1.040000)
+			(start 1.49 3.221)
+			(end 1.49 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9567,8 +9479,8 @@
 			(uuid "a103112c-b8e3-4099-8943-df7588dc87b6")
 		)
 		(fp_line
-			(start 1.490000 -1.040000)
-			(end 1.490000 -3.221000)
+			(start 1.49 -1.04)
+			(end 1.49 -3.221)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9577,8 +9489,8 @@
 			(uuid "2ae1605e-c02f-4b82-b2a2-6da738054f1f")
 		)
 		(fp_line
-			(start 1.450000 3.224000)
-			(end 1.450000 -3.224000)
+			(start 1.45 3.224)
+			(end 1.45 -3.224)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9587,8 +9499,8 @@
 			(uuid "a2348e0b-4f07-4215-b72d-a5e32f75f492")
 		)
 		(fp_line
-			(start 1.410000 3.226000)
-			(end 1.410000 -3.226000)
+			(start 1.41 3.226)
+			(end 1.41 -3.226)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9597,8 +9509,8 @@
 			(uuid "75be87ce-3880-4f20-8472-62f0cc447174")
 		)
 		(fp_line
-			(start 1.370000 3.228000)
-			(end 1.370000 -3.228000)
+			(start 1.37 3.228)
+			(end 1.37 -3.228)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9607,8 +9519,8 @@
 			(uuid "efb5154b-63ce-45df-b282-4f2008c6f8d4")
 		)
 		(fp_line
-			(start 1.330000 3.229000)
-			(end 1.330000 -3.229000)
+			(start 1.33 3.229)
+			(end 1.33 -3.229)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9617,8 +9529,8 @@
 			(uuid "6ba5ad9a-b814-49fe-af9f-1fe322970a6c")
 		)
 		(fp_line
-			(start 1.290000 3.230000)
-			(end 1.290000 -3.230000)
+			(start 1.29 3.23)
+			(end 1.29 -3.23)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9627,8 +9539,8 @@
 			(uuid "54038fbb-896d-4e60-abb8-5498f0d9f86c")
 		)
 		(fp_line
-			(start 1.250000 3.230000)
-			(end 1.250000 -3.230000)
+			(start 1.25 3.23)
+			(end 1.25 -3.23)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9637,8 +9549,8 @@
 			(uuid "c12339e2-f49e-4c51-bb16-fe08b78d72a6")
 		)
 		(fp_circle
-			(center 1.250000 0.000000)
-			(end 4.520000 0.000000)
+			(center 1.25 0)
+			(end 4.52 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9748,53 +9660,370 @@
 		(layer "Edge.Cuts")
 		(uuid "ef2e18d8-a2b1-4fde-a71d-485fef9511ee")
 	)
-	(gr_text "51k"
-		(at 73.7 73)
+	(gr_text "C1"
+		(at 73.5 79 0)
 		(layer "F.SilkS")
-		(uuid "eac0b5d2-0712-4ba8-869e-65b38b71b9b9")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
+		(uuid "69f6b4df-8244-40b2-9c33-b35af4194350")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 74 84.5 0)
+		(layer "F.SilkS")
+		(uuid "714cf6e0-0b29-4189-a4ab-3742d106af03")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "C2"
+		(at 83 68 0)
+		(layer "F.SilkS")
+		(uuid "7eedb211-e635-4cd7-bacd-2d641cac5cc2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "Q1"
+		(at 84 78.5 0)
+		(layer "F.SilkS")
+		(uuid "728c8852-dd34-40d8-b1fe-6ce9a0d1a8fd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 88 75.5 0)
+		(layer "F.SilkS")
+		(uuid "40b01e5e-53da-4380-afbc-dc4208801015")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "Q2"
+		(at 89.5 78.5 0)
+		(layer "F.SilkS")
+		(uuid "797d9555-740c-41b3-ba47-2f7ec8de2403")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 95 85 0)
+		(layer "F.SilkS")
+		(uuid "4c23ff78-0f70-4767-ba79-d7f23c65c6e7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 96 98 0)
+		(layer "F.SilkS")
+		(uuid "1c7ea8cd-8664-461e-a6c4-a192959be29a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "C4"
+		(at 97.5 88.5 0)
+		(layer "F.SilkS")
+		(uuid "194f9de5-a49c-4874-8ad5-b8d78e4dd4b9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "C3"
+		(at 97.5 95.5 0)
+		(layer "F.SilkS")
+		(uuid "d35325e5-4bea-48dd-a8ec-1660010c5bb5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
 	(gr_text "33k"
-		(at 72.5 94)
+		(at 75.5 92 90)
 		(layer "F.SilkS")
 		(uuid "def2d127-05cc-44db-b84a-a52d905d8c4c")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "51k"
+		(at 76 72 90)
+		(layer "F.SilkS")
+		(uuid "eac0b5d2-0712-4ba8-869e-65b38b71b9b9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
 	(gr_text "660R"
-		(at 81.7 68.5)
+		(at 79.5 72 90)
 		(layer "F.SilkS")
 		(uuid "11ad3a4c-a02d-479a-9c2a-c8e0882da113")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
 	(gr_text "330R"
-		(at 81.5 85)
+		(at 79.5 92 90)
 		(layer "F.SilkS")
 		(uuid "52c143fc-493e-4a82-ba1a-bf315b8bd7c5")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
-	)
-	(gr_text "15k"
-		(at 88.5 68.5)
-		(layer "F.SilkS")
-		(uuid "ac0e3982-82ac-48ed-99bd-4546fa9b86cc")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
 	(gr_text "22k"
-		(at 85.6 92 90)
+		(at 83.5 92 90)
 		(layer "F.SilkS")
 		(uuid "ad364e58-350f-49c7-8e63-d354b510c7c1")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
-	(gr_text "75R"
-		(at 97.5 73)
-		(layer "F.SilkS")
-		(uuid "e8674727-2f3d-44a5-bb9c-c6ea010d8b8e")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	(gr_text "E B C"
+		(at 86.5 82 90)
+		(layer "F.Fab")
+		(uuid "9d4d65bb-ba23-4627-b5a2-3702636b903c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
 	(gr_text "22R"
-		(at 85.13 81.84)
+		(at 87.5 92 90)
 		(layer "F.SilkS")
 		(uuid "c9e9bc80-8d12-482d-afac-90bc0a988cc7")
-		(effects (font (size 0.8 0.8) (thickness 0.12)))
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "15k"
+		(at 91.5 72 90)
+		(layer "F.SilkS")
+		(uuid "ac0e3982-82ac-48ed-99bd-4546fa9b86cc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "E B C"
+		(at 92.5 82 90)
+		(layer "F.Fab")
+		(uuid "2d2c5572-d469-4a5a-8f4b-5b80ac7a7164")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "75R"
+		(at 95 72 90)
+		(layer "F.SilkS")
+		(uuid "e8674727-2f3d-44a5-bb9c-c6ea010d8b8e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "cartheur"
+		(at 99 72 90)
+		(layer "F.SilkS")
+		(uuid "9c305891-4601-4e66-98cd-797bac42b7e0")
+		(effects
+			(font
+				(face "DejaVu Serif")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "cartheur" 90
+			(polygon
+				(pts
+					(xy 99.196158 74.354744) (xy 99.253279 74.372038) (xy 99.301058 74.395023) (xy 99.340831 74.423383)
+					(xy 99.3736 74.457204) (xy 99.399497 74.496455) (xy 99.418465 74.541484) (xy 99.430357 74.593327)
+					(xy 99.434539 74.65327) (xy 99.427565 74.730871) (xy 99.407592 74.797972) (xy 99.375175 74.856572)
+					(xy 99.329698 74.908076) (xy 99.274746 74.949137) (xy 99.21118 74.979046) (xy 99.137369 74.997772)
+					(xy 99.0512 75.004369) (xy 98.964682 74.997753) (xy 98.890811 74.978998) (xy 98.827417 74.949087)
+					(xy 98.772824 74.908076) (xy 98.727641 74.856611) (xy 98.695407 74.798015) (xy 98.675534 74.73088)
+					(xy 98.668593 74.653209) (xy 98.672681 74.584582) (xy 98.685019 74.515945) (xy 98.705463 74.448193)
+					(xy 98.735027 74.378619) (xy 98.922606 74.378619) (xy 98.922606 74.451709) (xy 98.859132 74.466361)
+					(xy 98.812818 74.487551) (xy 98.779846 74.514235) (xy 98.755917 74.548962) (xy 98.740612 74.593856)
+					(xy 98.735027 74.651866) (xy 98.740285 74.700995) (xy 98.755227 74.741941) (xy 98.779563 74.776471)
+					(xy 98.814284 74.805617) (xy 98.854108 74.826432) (xy 98.90516 74.842721) (xy 98.969909 74.853542)
+					(xy 99.0512 74.857518) (xy 99.132526 74.853568) (xy 99.197374 74.842813) (xy 99.248562 74.826618)
+					(xy 99.288543 74.805922) (xy 99.323366 74.776928) (xy 99.347794 74.742418) (xy 99.362812 74.701335)
+					(xy 99.368105 74.651866) (xy 99.362918 74.599258) (xy 99.348422 74.55672) (xy 99.325301 74.522112)
+					(xy 99.293802 74.494436) (xy 99.251613 74.472149) (xy 99.196158 74.4558)
+				)
+			)
+			(polygon
+				(pts
+					(xy 99.415 73.733757) (xy 99.334705 73.733757) (xy 99.379707 73.779253) (xy 99.410298 73.830111)
+					(xy 99.428167 73.887754) (xy 99.434539 73.95785) (xy 99.4301 74.018105) (xy 99.417568 74.069206)
+					(xy 99.39769 74.112707) (xy 99.370608 74.149825) (xy 99.336341 74.180514) (xy 99.296866 74.202475)
+					(xy 99.251155 74.21607) (xy 99.197745 74.220838) (xy 99.143176 74.215427) (xy 99.097007 74.200009)
+					(xy 99.057516 74.17497) (xy 99.0236 74.139566) (xy 98.998058 74.097953) (xy 98.978712 74.047112)
+					(xy 98.966197 73.985206) (xy 98.961685 73.910039) (xy 98.961685 73.89569) (xy 99.035935 73.89569)
+					(xy 99.041108 73.956928) (xy 99.054914 74.002103) (xy 99.075746 74.03503) (xy 99.105288 74.059471)
+					(xy 99.144876 74.075042) (xy 99.197745 74.080765) (xy 99.24566 74.075253) (xy 99.284544 74.059697)
+					(xy 99.316448 74.034359) (xy 99.340179 74.000951) (xy 99.354993 73.959766) (xy 99.360289 73.908635)
+					(xy 99.354629 73.858223) (xy 99.338571 73.816645) (xy 99.312356 73.781934) (xy 99.277735 73.755507)
+					(xy 99.236673 73.739407) (xy 99.187304 73.733757) (xy 99.035935 73.733757) (xy 99.035935 73.89569)
+					(xy 98.961685 73.89569) (xy 98.961685 73.733757) (xy 98.910821 73.733757) (xy 98.857191 73.739825)
+					(xy 98.814802 73.756752) (xy 98.781067 73.78401) (xy 98.756417 73.820094) (xy 98.740725 73.866166)
+					(xy 98.735027 73.92506) (xy 98.739292 73.974044) (xy 98.751094 74.013226) (xy 98.769588 74.044617)
+					(xy 98.795402 74.069849) (xy 98.828861 74.088345) (xy 98.871803 74.099938) (xy 98.871803 74.164784)
+					(xy 98.723304 74.164784) (xy 98.699068 74.099217) (xy 98.682271 74.037412) (xy 98.67195 73.97578)
+					(xy 98.668593 73.916817) (xy 98.674017 73.841009) (xy 98.689076 73.779006) (xy 98.712523 73.728319)
+					(xy 98.743942 73.686984) (xy 98.783885 73.653771) (xy 98.832435 73.62928) (xy 98.891382 73.613684)
+					(xy 98.963089 73.608094) (xy 99.34075 73.608094) (xy 99.34075 73.496048) (xy 99.415 73.496048)
+				)
+			)
+			(polygon
+				(pts
+					(xy 98.688133 72.787377) (xy 98.871803 72.787377) (xy 98.871803 72.859795) (xy 98.836066 72.865193)
+					(xy 98.809322 72.87546) (xy 98.789555 72.889898) (xy 98.775022 72.909316) (xy 98.765764 72.934669)
+					(xy 98.762383 72.96775) (xy 98.766738 73.013144) (xy 98.779069 73.051103) (xy 98.798936 73.083127)
+					(xy 98.826802 73.110205) (xy 98.87242 73.136263) (xy 98.932732 73.153385) (xy 99.011877 73.159725)
+					(xy 99.34075 73.159725) (xy 99.34075 73.014217) (xy 99.415 73.014217) (xy 99.415 73.398778) (xy 99.34075 73.398778)
+					(xy 99.34075 73.285388) (xy 98.758475 73.285388) (xy 98.758475 73.405617) (xy 98.688133 73.405617)
+					(xy 98.688133 73.159725) (xy 98.819535 73.159725) (xy 98.771068 73.131637) (xy 98.733649 73.100004)
+					(xy 98.705657 73.064776) (xy 98.685548 73.024539) (xy 98.673006 72.977865) (xy 98.668593 72.923359)
+					(xy 98.673661 72.858757)
+				)
+			)
+			(polygon
+				(pts
+					(xy 98.762383 72.636007) (xy 98.762383 72.746649) (xy 98.688133 72.746649) (xy 98.688133 72.636007)
+					(xy 98.461475 72.636007) (xy 98.461475 72.509612) (xy 98.688133 72.509612) (xy 98.688133 72.273246)
+					(xy 98.762383 72.273246) (xy 98.762383 72.509612) (xy 99.225711 72.509612) (xy 99.287692 72.506815)
+					(xy 99.323662 72.500196) (xy 99.342459 72.491843) (xy 99.355911 72.477915) (xy 99.364738 72.456966)
+					(xy 99.368105 72.426264) (xy 99.364527 72.39481) (xy 99.354816 72.371606) (xy 99.339528 72.354579)
+					(xy 99.319058 72.34289) (xy 99.289238 72.33451) (xy 99.24696 72.330643) (xy 99.24696 72.235693)
+					(xy 99.310078 72.245143) (xy 99.356268 72.263577) (xy 99.389537 72.289671) (xy 99.413202 72.324772)
+					(xy 99.428742 72.372615) (xy 99.434539 72.437194) (xy 99.428185 72.508154) (xy 99.411611 72.557476)
+					(xy 99.387034 72.590945) (xy 99.352261 72.614067) (xy 99.300544 72.629897) (xy 99.225711 72.636007)
+				)
+			)
+			(polygon
+				(pts
+					(xy 99.415 72.167794) (xy 99.34075 72.167794) (xy 99.34075 72.054404) (xy 98.426304 72.054404)
+					(xy 98.426304 72.174633) (xy 98.352055 72.174633) (xy 98.352055 71.928741) (xy 98.818192 71.928741)
+					(xy 98.771336 71.902186) (xy 98.734518 71.872032) (xy 98.706329 71.838249) (xy 98.68557 71.799612)
+					(xy 98.672945 71.756785) (xy 98.668593 71.708739) (xy 98.673552 71.64887) (xy 98.687259 71.600909)
+					(xy 98.70865 71.562477) (xy 98.737653 71.531847) (xy 98.773041 71.508974) (xy 98.818969 71.491229)
+					(xy 98.877927 71.479458) (xy 98.952892 71.475121) (xy 99.34075 71.475121) (xy 99.34075 71.363075)
+					(xy 99.415 71.363075) (xy 99.415 71.710144) (xy 99.34075 71.710144) (xy 99.34075 71.601517) (xy 98.992398 71.601517)
+					(xy 98.903113 71.606279) (xy 98.845755 71.618078) (xy 98.811048 71.634001) (xy 98.785218 71.65948)
+					(xy 98.76862 71.696622) (xy 98.762383 71.749772) (xy 98.766636 71.792302) (xy 98.778693 71.827802)
+					(xy 98.79819 71.857731) (xy 98.825703 71.883007) (xy 98.870301 71.906897) (xy 98.930285 71.922802)
+					(xy 99.010045 71.928741) (xy 99.34075 71.928741) (xy 99.34075 71.819443) (xy 99.415 71.819443)
+				)
+			)
+			(polygon
+				(pts
+					(xy 99.06329 71.107902) (xy 99.068907 71.107902) (xy 99.144763 71.103737) (xy 99.205678 71.092337)
+					(xy 99.254235 71.075015) (xy 99.292634 71.052581) (xy 99.325248 71.022118) (xy 99.348507 70.985662)
+					(xy 99.362977 70.942009) (xy 99.368105 70.889305) (xy 99.362935 70.835713) (xy 99.348323 70.791119)
+					(xy 99.324813 70.753689) (xy 99.29273 70.723028) (xy 99.250577 70.698212) (xy 99.196158 70.679561)
+					(xy 99.196158 70.578445) (xy 99.254224 70.597621) (xy 99.302468 70.622629) (xy 99.342304 70.653186)
+					(xy 99.37476 70.689453) (xy 99.399888 70.730995) (xy 99.418536 70.779449) (xy 99.430353 70.836041)
+					(xy 99.434539 70.90225) (xy 99.427558 70.98024) (xy 99.40757 71.047637) (xy 99.37515 71.106449)
+					(xy 99.329698 71.158094) (xy 99.274723 71.199324) (xy 99.211149 71.229345) (xy 99.137346 71.248135)
+					(xy 99.0512 71.254753) (xy 98.965753 71.24826) (xy 98.892329 71.229809) (xy 98.828892 71.200311)
+					(xy 98.773862 71.159804) (xy 98.728026 71.108916) (xy 98.695502 71.051378) (xy 98.675543 70.985858)
+					(xy 98.668599 70.910493) (xy 98.735027 70.910493) (xy 98.73926 70.952571) (xy 98.75139 70.988616)
+					(xy 98.771211 71.019876) (xy 98.799385 71.047147) (xy 98.844968 71.074221) (xy 98.906744 71.094996)
+					(xy 98.98904 71.107902) (xy 98.98904 70.714427) (xy 98.906245 70.723286) (xy 98.844485 70.741798)
+					(xy 98.79908 70.768038) (xy 98.771392 70.795092) (xy 98.751634 70.827107) (xy 98.739363 70.865073)
+					(xy 98.735027 70.910493) (xy 98.668599 70.910493) (xy 98.668593 70.910432) (xy 98.675584 70.829131)
+					(xy 98.695246 70.761527) (xy 98.726527 70.705008) (xy 98.769649 70.657701) (xy 98.822019 70.621067)
+					(xy 98.886648 70.592991) (xy 98.966046 70.574179) (xy 99.06329 70.566171)
+				)
+			)
+			(polygon
+				(pts
+					(xy 98.688133 70.000688) (xy 98.688133 69.765727) (xy 99.34075 69.765727) (xy 99.34075 69.646841)
+					(xy 99.415 69.646841) (xy 99.415 69.891389) (xy 99.28494 69.891389) (xy 99.331173 69.917843) (xy 99.36787 69.947892)
+					(xy 99.396315 69.981576) (xy 99.417371 70.020001) (xy 99.430144 70.062464) (xy 99.434539 70.109987)
+					(xy 99.429589 70.170272) (xy 99.415913 70.218544) (xy 99.394592 70.257197) (xy 99.365724 70.287979)
+					(xy 99.330382 70.310948) (xy 99.284358 70.328789) (xy 99.225103 70.340639) (xy 99.149569 70.345009)
+					(xy 98.762383 70.345009) (xy 98.762383 70.458399) (xy 98.688133 70.458399) (xy 98.688133 70.218614)
+					(xy 99.110734 70.218614) (xy 99.19954 70.213875) (xy 99.256866 70.20211) (xy 99.291779 70.186191)
+					(xy 99.317792 70.160649) (xy 99.334483 70.123479) (xy 99.34075 70.070358) (xy 99.336463 70.027871)
+					(xy 99.324307 69.992395) (xy 99.304629 69.962471) (xy 99.276819 69.937185) (xy 99.23175 69.913256)
+					(xy 99.17127 69.897332) (xy 99.091011 69.891389) (xy 98.762383 69.891389) (xy 98.762383 70.000688)
+				)
+			)
+			(polygon
+				(pts
+					(xy 98.688133 68.926386) (xy 98.871803 68.926386) (xy 98.871803 68.998804) (xy 98.836066 69.004202)
+					(xy 98.809322 69.014469) (xy 98.789555 69.028907) (xy 98.775022 69.048325) (xy 98.765764 69.073678)
+					(xy 98.762383 69.106759) (xy 98.766738 69.152154) (xy 98.779069 69.190112) (xy 98.798936 69.222136)
+					(xy 98.826802 69.249214) (xy 98.87242 69.275272) (xy 98.932732 69.292394) (xy 99.011877 69.298734)
+					(xy 99.34075 69.298734) (xy 99.34075 69.153227) (xy 99.415 69.153227) (xy 99.415 69.537787) (xy 99.34075 69.537787)
+					(xy 99.34075 69.424397) (xy 98.758475 69.424397) (xy 98.758475 69.544626) (xy 98.688133 69.544626)
+					(xy 98.688133 69.298734) (xy 98.819535 69.298734) (xy 98.771068 69.270646) (xy 98.733649 69.239013)
+					(xy 98.705657 69.203785) (xy 98.685548 69.163548) (xy 98.673006 69.116874) (xy 98.668593 69.062368)
+					(xy 98.673661 68.997766)
+				)
+			)
+		)
 	)
 	(segment
 		(start 75.5 86.92)
