@@ -1,0 +1,22 @@
+* Nominal small-signal response: 75 ohm source and display termination.
+VCC vcc 0 5
+VIN vin 0 dc 0 ac 1
+RS vin in 75
+C1 in b1 100u
+R1 vcc b1 51k
+R2 b1 0 33k
+R3 vcc c1 660
+R4 e1 0 330
+Q1 c1 b1 e1 QN3904
+C2 c1 b2 100u
+R5 vcc b2 15k
+R6 b2 0 22k
+R7 vcc c2 75
+R8 e2 0 22
+Q2 c2 b2 e2 QN3904
+C3 c2 out 100u
+RL out 0 75
+.model QN3904 NPN(IS=6.734f BF=416.4 VAF=74.03 IKF=66.78m ISE=6.734f NE=1.5 BR=0.7371 VAR=28.8 IKR=10m ISC=0 NC=2 RB=10 RE=0.1 RC=1 CJE=4.493p VJE=0.75 MJE=0.2593 CJC=3.638p VJC=0.75 MJC=0.3083 TF=301.2p XTF=2 VTF=4 ITF=0.4)
+.ac dec 100 10 10Meg
+.print ac vdb(out) vp(out)
+.end

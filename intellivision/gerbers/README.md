@@ -14,3 +14,7 @@ contents of `ec.zip`; it is the known-good reference artifact.
 This evidence applies to this Intellivision Gerber set and its manufacturer
 submission requirements only.  It does not make the board electrically
 interchangeable with the separate Atari composite design.
+
+Preliminary circuit-simulation evidence is kept separately in
+[`evidence/`](evidence/). It is not part of the manufacturer submission
+package and does not replace assembled-board validation.
