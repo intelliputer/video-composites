@@ -15,7 +15,7 @@ of their RF modulator.
 | Design | Purpose | State |
 | --- | --- | --- |
 | [Atari 2600](atari/README.md) | Adjustable two-stage composite-video amplifier and mono-audio pass-through. | Source design preserved; resolve or explicitly waive the recorded PCB DRC items before manufacturing. |
-| [Intellivision](intellivision/doc/COMPATIBILITY.md) | Fixed-gain two-stage composite-video amplifier and mono-audio coupling for NTSC Intellivision-family consoles. | Legacy working production reference preserved; source-schematic restoration and manufacturing review remain necessary. |
+| [Intellivision](intellivision/doc/COMPATIBILITY.md) | Fixed-gain two-stage composite-video amplifier and mono-audio coupling for NTSC Intellivision-family consoles. | Source schematic and PCB now have zero parity issues and zero ERC errors; review/waive recorded legacy warnings and complete first-article, 75-ohm-load validation before manufacture. |
 | [Universal](universal/README.md) | Proposed adjustable, AC-coupled two-stage design for appropriate baseband sources. | Design direction and prototype documentation; validate on target hardware before release or production. |
 
 Validation details and reproducible KiCad checks are in [reports/README.md](reports/README.md).
@@ -40,13 +40,15 @@ and Sears Telegames / Super Video Arcade 497.75022 consoles, subject to the
 [compatibility and installation notes](intellivision/doc/COMPATIBILITY.md).
 
 The repository includes board imagery, a reconstructed circuit analysis, and
-the [BOM](intellivision/doc/BOM.md). The populated KiCad PCB does not yet have
-a usable matching schematic, so treat it as a preservation/reference artifact
-until that source is restored and the design has a complete review.
+the [BOM](intellivision/doc/BOM.md). The populated KiCad PCB has a matching
+source schematic with zero current parity issues and zero ERC errors. It remains a
+pre-production candidate: disposition the recorded legacy warnings and validate
+an assembled board into a 75-ohm composite load before placing a manufacture
+order.
 
 #### Production Gerber reference
 
-[`intellivision/gerbers/ec.zip`](intellivision/gerbers/ec.zip) is the
+[`intellivision/gerbers/archive/ec.zip`](intellivision/gerbers/archive/ec.zip) is the
 preserved successful EC/manufacturer-compatible Gerber package, renamed from
 `old.zip`. It is the known-good reference for the post-export, pre-submission
 packaging check: compare a newly exported intended submission against its

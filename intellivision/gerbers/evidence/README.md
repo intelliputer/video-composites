@@ -62,3 +62,12 @@ video input.
 
 The step-by-step live-unit acquisition plan is
 [`live-unit-analog-discovery-2-test.md`](live-unit-analog-discovery-2-test.md).
+
+## Captured source evidence
+
+The initial raw-source captures are preserved in
+[`../../../live/README.md`](../../../live/README.md).  They record an
+Intellivision II pre-RF waveform with approximately 15.70 kHz horizontal
+timing, a 4.8 us sync pulse, and a 3.58 MHz colour-burst component.  They
+replace the earlier absence of a measured raw waveform, but do not remove the
+need for a time-domain simulation and assembled-board test into a 75-ohm load.

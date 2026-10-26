@@ -35,25 +35,27 @@ board is fabricated.
 
 ## Intellivision composite-video board
 
-**Status: partial validation only; restore the source schematic before
-manufacturing review.**
+**Status: pre-production candidate; disposition legacy warnings and complete
+first-article validation before manufacturing.**
 
-The populated board file is
-[`intellivision-composite.kicad_pcb`](../intellivision/project/kicad/intellivision-composite.kicad_pcb).
-Standalone KiCad 10.0.7 DRC was run on 2026-10-17:
+The populated board and matching schematic are
+[`intv-video-composite.kicad_pcb`](../intellivision/project/kicad/intv-video-composite.kicad_pcb)
+and
+[`intv-video-composite.kicad_sch`](../intellivision/project/kicad/intv-video-composite.kicad_sch).
+KiCad 10.0.7 validation was run on 2026-10-26:
 
 | Check | Result | Assessment |
 | --- | --- | --- |
-| PCB DRC | 18 warnings, 0 errors | All warnings are dangling, no-net track ends. Review whether they are intentional layout artifacts. |
+| Schematic ERC | 0 errors, 3 warnings | The external +5 V and ground inputs are marked as their rails' sources. The remaining warnings are two cached-symbol mismatches and one apparently dangling +5 V wire endpoint. |
+| PCB DRC | 5 warnings, 0 errors | Two cached 2N3904-footprint mismatches, two cached capacitor-footprint mismatches, and one silkscreen text-thickness warning require explicit disposition before release. |
 | Unconnected pads | 0 | Pass. |
 | Footprint errors | 0 | Pass. |
-| Schematic ERC | 0 violations | The file loads, but it is an empty schematic with no circuit to validate. |
-| Schematic/PCB parity | Not run | Requires the matching source schematic. |
+| Schematic/PCB parity | 0 issues | Pass. |
 
-`intellivision-composite.kicad_sch` is only 233 bytes and contains no circuit.
-It is not a usable source counterpart for the populated board, so an ERC or
-board/schematic parity result would not be meaningful. Restore or recreate the
-matching schematic before treating the board as manufacturing-ready.
+The current reports are
+[`intv-erc-2026-10-26.rpt`](intv-erc-2026-10-26.rpt) and
+[`intv-drc-2026-10-26.rpt`](intv-drc-2026-10-26.rpt).  The prior description
+of an empty Intellivision schematic is obsolete.
 
 Run the available standalone DRC from the repository root with:
 
@@ -62,13 +64,12 @@ report_dir="$PWD/reports"
 
 flatpak run --filesystem="$report_dir" --command=kicad-cli org.kicad.KiCad \
   pcb drc --exit-code-violations \
-  --output "$report_dir/intellivision-composite-drc.rpt" \
-  "$PWD/intellivision/project/kicad/intellivision-composite.kicad_pcb"
+  --output "$report_dir/intv-video-composite-drc.rpt" \
+  "$PWD/intellivision/project/kicad/intv-video-composite.kicad_pcb"
 ```
 
-After restoring a valid matching schematic, also run ERC and parity DRC using
-the same Atari command pattern below, substituting the Intellivision file
-paths.
+Run ERC and parity DRC using the same Atari command pattern below, substituting
+the Intellivision file paths.
 
 ## Running KiCad validation with Flatpak
 
