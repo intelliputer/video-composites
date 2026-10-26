@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,10.0.7*%
-%TF.CreationDate,2026-10-26T15:28:45+01:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.6*%
+%TF.CreationDate,2026-10-26T15:46:41+01:00*%
 %TF.ProjectId,intv-video-composite,696e7476-2d76-4696-9465-6f2d636f6d70,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.7) date 2026-10-26 15:28:45*
+G04 Created by KiCad (PCBNEW 10.0.6) date 2026-10-26 15:46:41*
 %MOMM*%
 %LPD*%
 G01*
@@ -30,10 +30,10 @@ G04 Aperture macros list*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
 %TA.AperFunction,ComponentPad*%
-%ADD10C,1.600000*%
+%ADD10C,3.500000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD11C,3.500000*%
+%ADD11C,1.600000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
 %ADD12R,1.500000X1.100000*%
@@ -52,6 +52,15 @@ G04 Aperture macros list end*
 %TD*%
 G04 APERTURE END LIST*
 D10*
+%TO.P,J7,1,Pin_1_1*%
+%TO.N,GND*%
+X99000000Y-91500000D03*
+%TD*%
+%TO.P,J5,1,Pin_1_1*%
+%TO.N,+5V*%
+X70500000Y-72000000D03*
+%TD*%
+D11*
 %TO.P,R2,1*%
 %TO.N,Net-(R1-Pad2)*%
 X75500000Y-86920000D03*
@@ -66,7 +75,7 @@ X76000000Y-66920000D03*
 %TO.N,Net-(R1-Pad2)*%
 X76000000Y-77080000D03*
 %TD*%
-D11*
+D10*
 %TO.P,J4,1,Pin_1_1*%
 %TO.N,Net-(J4-Pin_1)*%
 X99000000Y-83500000D03*
@@ -83,16 +92,12 @@ X91000000Y-82000000D03*
 %TO.N,Net-(Q2-C)*%
 X91000000Y-80730000D03*
 %TD*%
-D11*
-%TO.P,J7,1,Pin_1_1*%
-%TO.N,GND*%
-X99000000Y-91500000D03*
-%TD*%
+D10*
 %TO.P,J1,1,Pin_1_1*%
 %TO.N,Net-(J1-Pin_1)*%
 X70500000Y-78000000D03*
 %TD*%
-D10*
+D11*
 %TO.P,R5,1*%
 %TO.N,+5V*%
 X91500000Y-66920000D03*
@@ -111,7 +116,7 @@ D14*
 %TO.P,C2,1*%
 %TO.N,Net-(Q2-B)*%
 X86750000Y-72000000D03*
-D10*
+D11*
 %TO.P,C2,2*%
 %TO.N,Net-(Q1-C)*%
 X84250000Y-72000000D03*
@@ -128,12 +133,12 @@ X85000000Y-82000000D03*
 %TO.N,Net-(Q1-C)*%
 X85000000Y-80730000D03*
 %TD*%
-D11*
+D10*
 %TO.P,J6,1,Pin_1_1*%
 %TO.N,GND*%
 X70500000Y-91000000D03*
 %TD*%
-D10*
+D11*
 %TO.P,R6,1*%
 %TO.N,Net-(Q2-B)*%
 X83500000Y-86920000D03*
@@ -141,11 +146,7 @@ X83500000Y-86920000D03*
 %TO.N,GND*%
 X83500000Y-97080000D03*
 %TD*%
-D11*
-%TO.P,J5,1,Pin_1_1*%
-%TO.N,+5V*%
-X70500000Y-72000000D03*
-%TD*%
+D10*
 %TO.P,J3,1,Pin_1_1*%
 %TO.N,Net-(J3-Pin_1)*%
 X70500000Y-84500000D03*
@@ -154,7 +155,7 @@ D15*
 %TO.P,C1,1*%
 %TO.N,Net-(J1-Pin_1)*%
 X76000000Y-82000000D03*
-D10*
+D11*
 %TO.P,C1,2*%
 %TO.N,Net-(Q1-B)*%
 X78500000Y-82000000D03*
@@ -180,7 +181,7 @@ X87500000Y-86920000D03*
 %TO.N,GND*%
 X87500000Y-97080000D03*
 %TD*%
-D11*
+D10*
 %TO.P,J2,1,Pin_1_1*%
 %TO.N,Net-(J2-Pin_1)*%
 X99000000Y-77500000D03*
@@ -189,7 +190,7 @@ D14*
 %TO.P,C4,1*%
 %TO.N,Net-(J4-Pin_1)*%
 X94000000Y-88500000D03*
-D10*
+D11*
 %TO.P,C4,2*%
 %TO.N,Net-(J3-Pin_1)*%
 X91500000Y-88500000D03*
@@ -198,7 +199,7 @@ D14*
 %TO.P,C3,1*%
 %TO.N,Net-(J2-Pin_1)*%
 X94000000Y-95500000D03*
-D10*
+D11*
 %TO.P,C3,2*%
 %TO.N,Net-(Q2-C)*%
 X91500000Y-95500000D03*
