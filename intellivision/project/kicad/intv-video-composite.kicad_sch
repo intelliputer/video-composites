@@ -1581,7 +1581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Intellivision:WirePad_1x01_D3.5mm_Drill1.3mm"
 			(at 50.8 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2685,7 +2685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Intellivision:WirePad_1x01_D3.5mm_Drill1.3mm"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2759,7 +2759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Intellivision:WirePad_1x01_D3.5mm_Drill1.3mm"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2912,7 +2912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Intellivision:WirePad_1x01_D3.5mm_Drill1.3mm"
 			(at 132.08 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2986,7 +2986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Intellivision:WirePad_1x01_D3.5mm_Drill1.3mm"
 			(at 71.12 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3060,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Intellivision:WirePad_1x01_D3.5mm_Drill1.3mm"
 			(at 71.12 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3136,7 +3136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Intellivision:WirePad_1x01_D3.5mm_Drill1.3mm"
 			(at 198.12 101.6 0)
 			(hide yes)
 			(show_name no)

@@ -1,23 +1,11 @@
 ** Drc report for intv-video-composite.kicad_pcb **
-** Created on 2026-10-26T14:22:21 **
+** Created on 2026-10-26T14:54:06 **
 ** Report includes: Errors, Warnings **
 
-** Found 5 DRC violations **
-[lib_footprint_mismatch]: Footprint 'TO-92_Inline_OAR175' does not match copy in library 'Intellivision'
-    Local override; warning
-    @(91.0000 mm, 83.2700 mm): Footprint Q2
-[lib_footprint_mismatch]: Footprint 'CP_Radial_D6.3mm_P2.50mm' does not match copy in library 'Capacitor_THT'
-    Local override; warning
-    @(86.7500 mm, 72.0000 mm): Footprint C2
-[lib_footprint_mismatch]: Footprint 'TO-92_Inline_OAR175' does not match copy in library 'Intellivision'
-    Local override; warning
-    @(85.0000 mm, 83.2700 mm): Footprint Q1
-[lib_footprint_mismatch]: Footprint 'CP_Radial_D6.3mm_P2.50mm' does not match copy in library 'Capacitor_THT'
-    Local override; warning
-    @(76.0000 mm, 82.0000 mm): Footprint C1
+** Found 1 DRC violations **
 [text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
     Rule: board setup constraints silk text thickness; warning
-    @(99.0000 mm, 72.0000 mm): PCB text 'cartheur' on F.Silkscreen
+    @(99.0000 mm, 71.5000 mm): PCB text 'cartheur' on F.Silkscreen
 
 ** Found 0 unconnected pads **
 
