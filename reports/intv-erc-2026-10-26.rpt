@@ -1,4 +1,4 @@
-ERC report (2026-10-26T14:22:19, Encoding UTF8)
+ERC report (2026-10-26T15:29:22, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -10,7 +10,7 @@ Report includes: Errors, Warnings
     @(157.48 mm, 76.20 mm): Symbol Q2 [2N3904]
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
-    @(76.20 mm, 45.72 mm): Horizontal Wire, length 106.68 mm
+    @(83.82 mm, 45.72 mm): Horizontal Wire, length 99.06 mm
 
  ** ERC messages: 3  Errors 0  Warnings 3
 

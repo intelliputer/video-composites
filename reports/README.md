@@ -47,7 +47,7 @@ KiCad 10.0.7 validation was run on 2026-10-26:
 | Check | Result | Assessment |
 | --- | --- | --- |
 | Schematic ERC | 0 errors, 3 warnings | The external +5 V and ground inputs are marked as their rails' sources. The remaining warnings are two cached-symbol mismatches and one apparently dangling +5 V wire endpoint. |
-| PCB DRC | 5 warnings, 0 errors | Two cached 2N3904-footprint mismatches, two cached capacitor-footprint mismatches, and one silkscreen text-thickness warning require explicit disposition before release. |
+| PCB DRC | 2 warnings, 0 errors | C3 intentionally uses a local footprint override to place its silkscreen on the top side; the other warning is the existing silkscreen text-thickness item. |
 | Unconnected pads | 0 | Pass. |
 | Footprint errors | 0 | Pass. |
 | Schematic/PCB parity | 0 issues | Pass. |
