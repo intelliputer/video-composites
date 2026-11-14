@@ -43,6 +43,11 @@ can vary by motherboard revision. Keep the video-input run short and shielded
 where practical. Disconnect mains power before opening the console; original
 and Sears units contain an internal line-voltage power supply.
 
+RF-modulator removal is optional and requires a board-specific replacement
+bias/shunt network; it is not automatically safe with every composite board.
+See the [RF-modulator removal guide](guide/RF-MODULATOR-REMOVAL.md) before
+removing the can.
+
 ## Audio-output connector options
 
 The Intellivision's original audio is **mono**. This board preserves that one
