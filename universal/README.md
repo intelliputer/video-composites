@@ -92,6 +92,31 @@ not universal: solder points, shielding, available space, power routing, and
 RCA mounting vary by motherboard and chassis. See
 [`../intellivision/doc/COMPATIBILITY.md`](../intellivision/doc/COMPATIBILITY.md).
 
+### Existing Intellivision boards are not Atari drop-in boards
+
+An assembled board made to the existing Intellivision design should **not** be
+installed unchanged in an Atari 2600. Although both consoles provide a
+baseband, pre-RF composite-like video waveform, the two legacy amplifiers are
+not electrically interchangeable:
+
+| Aspect | Existing Intellivision board | Atari 2600 requirement |
+| --- | --- | --- |
+| Gain | Fixed by resistor values | Adjustable, to suit the individual console and display chain |
+| Coupling/bias | Three AC-coupled video stages with independently set NPN biases | Different, primarily DC-coupled NPN/PNP bias and output arrangement |
+| Output stage | 2N3904 NPN | 2N3906 PNP in the Atari reference circuit |
+
+Consequently, a direct substitution might show a picture on a particular
+Atari, but its sync margin, black level, colour, brightness, and bright-scene
+clipping would be unverified. It is not a supported or production-safe Atari
+modification. Reworking a bare Intellivision PCB into the Atari circuit would
+require substantial component and trace changes and is generally less useful
+than producing an Atari-specific or universal PCB.
+
+This is the reason for the universal circuit's input/output DC isolation and
+accessible gain adjustment: it is intended to accommodate the differing raw
+video amplitude and DC conditions, but it still requires measured validation
+on each console family.
+
 No analogue board can guarantee correct results in every situation without
 validation. Before committing a PCB revision, measure the actual raw-video
 amplitude and DC offset for each target family, test with a 75-ohm terminated
