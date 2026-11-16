@@ -3,4 +3,5 @@ The Ideal Intelli
 
 16.11.2026
     1601: Motherboard has been removed and RF modulator stripped away. Noting quite a bit of solder on these joints that needed cleaning with a solder wick. Not going to reinstall the shielding and will perform video composite fitness checks after cleaning the dirty case.
+    1754: Board is extracted and cleaned and ready for the electrical checks.
     
