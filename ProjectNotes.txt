@@ -8,3 +8,5 @@ The Ideal Intelli
 23.11.2026
     1141: Ready to start assembly of the first video composites board.
     
+    Installation concept: the entire RF modulator has been removed while retaining its housing and firmly mounted RCA jack. Fit the composite-video board inside the reused housing, resolder the housing/frame to the motherboard so it remains grounded, and use insulation or standoffs to prevent the board from contacting the metal. Route the composite output to the existing RCA jack with a short shielded connection. Route mono audio through a spare opening, drilled as needed, for a panel-mounted 3.5 mm female jack.
+    
